@@ -1,0 +1,20 @@
+.navbar-brand {
+    font-family: "Space Mono", monospace;
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 0.01em;
+}
+
+.navbar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F3F3F3;
+}
+
+.nav-link {
+    font-family: "Host Grotesk", sans-serif;
+    font-size: 1.3rem;
+    letter-spacing: 0.01em;
+    text-transform: lowercase;
+}
