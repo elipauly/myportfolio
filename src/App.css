@@ -6,33 +6,3 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
-
-.title {
-  word-spacing: 0.02em;
-  font-weight: normal;
-  text-shadow: -1px -1px 0 #F3F3F3, 1px -1px 0 #F3F3F3,
-          -1px 1px 0 #F3F3F3, 1px 1px 0 #F3F3F3;
-}
-
-.title-right {
-  text-align: right;
-} 
-
-.title-left {
-  text-align: left;
-} 
-
-.home-image {
-  width: 100%;
-  height: 55%;
-  margin: 0 auto;
-  object-fit: contain;
-}
-
-.left-image{
-  float: right;
-}
-.right-image{
-  float: left;
-}
-
