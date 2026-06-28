@@ -6,3 +6,13 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+
+.container-home {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+
+.row-home {
+  margin-bottom: -5vh;
+}

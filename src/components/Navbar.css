@@ -1,3 +1,8 @@
+.whole-navbar{
+    margin-bottom: 4rem;
+    margin-top: 0.5rem;
+}
+
 .navbar-brand {
     font-family: "Space Mono", monospace;
     font-size: 2.5rem;

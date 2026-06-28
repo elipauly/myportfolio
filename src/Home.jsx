@@ -1,16 +1,14 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css'
+import './Home.css'
 
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
-import Navbar from './components/navbar.jsx'
-
 function Home() {
   return (
-    <Container className="container">
-      <Row gap={30}>
+    <Container className="container container-home">
+      <Row gx-2>
         <Col>
         <h1 className='title title-right'>ui/ux</h1>
         </Col>
@@ -18,7 +16,7 @@ function Home() {
         <h1 className='title title-left'>& interface</h1>
         </Col>
       </Row>
-      <Row>
+      <Row gx-2 className="row-home">
         <Col>
           <img src="src/assets/images_homepage/hausblendLogo.png" alt="hausblend logo" className="home-image left-image"/>
           <h2>Amplication</h2>
@@ -30,7 +28,7 @@ function Home() {
           <p>AI Job Application Interface</p>
         </Col>
       </Row>
-      <Row >
+      <Row gx-2 className="row-home">
         <Col>
           <img src="src/assets/images_homepage/hausblendLogo.png" alt="hausblend logo" className="home-image left-image"/>
           <h2>SummerJobs</h2>
