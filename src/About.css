@@ -6,7 +6,7 @@
 
 .about-image {
   width: 65vw;
-  max-height: 17vw;
+  aspect-ratio: 4 / 1;
   overflow: hidden;
   margin: 0 auto;
   object-fit: cover;

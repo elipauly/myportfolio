@@ -92,6 +92,16 @@ p {
   margin: 0;
 }
 
+.row{
+  margin-bottom:1.5rem;
+}
+
+.page-link {
+  text-decoration: none;
+  color: var(--text);
+  transition: all 0.2s ease-in-out;
+}
+
 .title {
   word-spacing: 0.02em;
   font-weight: normal;
@@ -106,10 +116,3 @@ p {
 .title-left {
   text-align: left;
 } 
-
-.left-image{
-  float: right;
-}
-.right-image{
-  float: left;
-}
