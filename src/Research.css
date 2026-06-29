@@ -15,3 +15,13 @@
   display: block;
   object-fit: cover;
 }
+
+.research-link {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.link-col {
+    align-self: end;
+    padding-bottom: 1.5vh;
+}

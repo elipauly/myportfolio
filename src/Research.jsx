@@ -31,7 +31,7 @@ function Research() {
         </Row>
         <Row>
             <Col>
-                <p className='title title-left'>I am a recent graduate from the University of Iowa, where I earned both my Bachelor’s and Master’s in Informatics, focused with Human-Computer Interaction and graphic design.  I am captivated by design that is odd and effective, such as street signs. I am a pleasant coworker, and open to work in NYC or Berlin. My journal is this color.</p>
+                <p className='title title-left'>During my Master’s program, I completed two research projects within the study of HCI and Social Computation. It was quite exciting to use my foundations of research methods and ethics to explore the field, and to contribute work to the field of social computation. I am CITI certified.</p>
             </Col>
             <Col></Col>
         </Row> 

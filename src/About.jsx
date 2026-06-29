@@ -4,6 +4,13 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
+//images
+import about_img from "./assets/images_homepage/hausblendLogo.png";
+import li_icon from "./assets/images_homepage/hausblendLogo.png";  
+import ig_icon from "./assets/images_homepage/hausblendLogo.png";  
+import mail_icon from "./assets/images_homepage/hausblendLogo.png";  
+
+
 function About() {
   const onResumeClick = () => {
     const pdfUrl = "src/assets/Resume_Pauly.pdf";
@@ -38,9 +45,9 @@ function About() {
           </Col>
           
           <Col>
-            <img src="src/assets/images_homepage/hausblendLogo.png" alt="Email Icon" onClick={onEmailClick} className="contact-image"/>
-            <img src="src/assets/images_homepage/hausblendLogo.png" alt="Instagram Icon" onClick={onInstagramClick} className="contact-image"/>
-            <img src="src/assets/images_homepage/hausblendLogo.png" alt="linkedIn Icon" onClick={onLinkedInClick} className="contact-image"/>
+            <img src={mail_icon} alt="Email Icon" onClick={onEmailClick} className="contact-image"/>
+            <img src={ig_icon} alt="Instagram Icon" onClick={onInstagramClick} className="contact-image"/>
+            <img src={li_icon} alt="linkedIn Icon" onClick={onLinkedInClick} className="contact-image"/>
           
         </Col>
       </Row>
@@ -53,7 +60,7 @@ function About() {
         </Col>
       </Row>
       <Row>
-        <img src="src/assets/images_homepage/hausblendLogo.png" alt="hausblend logo" className="about-image"/>
+        <img src={about_img} alt="project visual" className="about-image"/>
       </Row>
     </Container>
   );
