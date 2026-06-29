@@ -5,9 +5,56 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
 function About() {
+  const onResumeClick = () => {
+    const pdfUrl = "src/assets/Resume_Pauly.pdf";
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.download = "ElizabethPaulyResume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
+  const onLinkedInClick = () => {
+    const linkedInUrl = "https://www.linkedin.com/in/elizabeth-pauly/";
+    window.open(linkedInUrl, "_blank");
+  };
+
+  const onEmailClick = () => {
+    const email = "elizabeth.s.pauly@gmail.com";
+    window.location.href = `mailto:${email}`;
+  };
+
+  const onInstagramClick = () => {
+    const instagramUrl = "https://www.instagram.com/pauly.png/";
+    window.open(instagramUrl, "_blank");
+  };
+
   return (
-    <Container className="container">
-      <h1 className='title title-right'>About</h1>
+    <Container className="container container-about">
+      <Row gx-2>
+        <Col>
+            <h2 className="title title-left">about</h2>
+          </Col>
+          
+          <Col>
+            <img src="src/assets/images_homepage/hausblendLogo.png" alt="Email Icon" onClick={onEmailClick} className="contact-image"/>
+            <img src="src/assets/images_homepage/hausblendLogo.png" alt="Instagram Icon" onClick={onInstagramClick} className="contact-image"/>
+            <img src="src/assets/images_homepage/hausblendLogo.png" alt="linkedIn Icon" onClick={onLinkedInClick} className="contact-image"/>
+          
+        </Col>
+      </Row>
+      <Row gx-2>
+        <Col>
+          <p className="title-left">I am a recent graduate from the University of Iowa, where I earned both my Bachelor’s and Master’s in Informatics, focused with Human-Computer Interaction and graphic design.  I am captivated by design that is odd and effective, such as street signs. I am a pleasant coworker, and open to work in NYC or Berlin. My journal is this color.</p>
+        </Col>
+        <Col className='resume-col'>
+            <h2 onClick={onResumeClick} className="title-right resume-link">my resume.pdf</h2>
+        </Col>
+      </Row>
+      <Row>
+        <img src="src/assets/images_homepage/hausblendLogo.png" alt="hausblend logo" className="about-image"/>
+      </Row>
     </Container>
   );
 }

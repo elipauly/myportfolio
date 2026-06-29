@@ -1,0 +1,35 @@
+.container-about {
+  max-width: 65vw;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+
+.about-image {
+  width: 65vw;
+  max-height: 17vw;
+  overflow: hidden;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+.resume-link {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.resume-col {
+    align-self: end;
+    padding-bottom: 1.5vh;
+}
+
+.contact-image {
+    width: 85px;
+    height: 65px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    margin: 0 auto;
+    object-fit: cover;
+    float: right;
+    cursor: pointer;
+}
