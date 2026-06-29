@@ -7,6 +7,8 @@ import Navbar from './components/navbar.jsx'
 import Home from './Home.jsx'
 import About from './About.jsx'
 import Research from './research.jsx' //dont know why this needs to be lowercase, but it works either way
+import SportsBettingReddit from './researchpages/SportsBettingReddit.jsx';
+import CommercializationMMO from './researchpages/CommercializationMMO.jsx';
 
 function App() {
   return (     
@@ -14,8 +16,12 @@ function App() {
         <main>         
           <Navbar/>
           <Routes>              
-            <Route path="/" element={<div className="row"><Home /></div>} />       
-            <Route path="/research" element={<div className="row"><Research /></div>} />           
+            <Route path="/" element={<Home />} />
+
+            <Route path="/research" element={<Research />} />
+            <Route path="/research/sports-betting-on-reddit" element={<SportsBettingReddit />} />
+            <Route path="/research/commercialization-of-childrens-mmo-games" element={<CommercializationMMO />} />
+
             <Route path="/about" element={<div className="row"><About /></div>} />       
           </Routes>   
         </main>     

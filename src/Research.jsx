@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Research.css'
 
+import { Link } from "react-router";
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -15,9 +16,11 @@ function Research() {
         </Row>  
         <Row gx-2>
             <Col>
+                <Link to="/research/sports-betting-on-reddit">
                 <img src="src/assets/images_homepage/hausblendLogo.png" alt="hausblend logo" className="research-image"/>
                 <h2>Winning Beats Everything, Except More Winning</h2>
                 <p>Warning Signs and Responses to Problem Gambling in Online Sports Betting Communities on Reddit</p>
+                </Link>
             </Col>
         </Row>
         <Row gx-2>
