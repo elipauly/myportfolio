@@ -107,18 +107,9 @@ p {
   text-align: left;
 } 
 
-.home-image {
-  width: 100%;
-  max-height: 55%;
-  overflow: hidden;
-  margin: 0 auto;
-  object-fit: cover;
-}
-
 .left-image{
   float: right;
 }
 .right-image{
   float: left;
 }
-
