@@ -15,7 +15,6 @@ function CommercializationMMO() {
 
   return (
     <Container className="container container-about">
-      <BackButton />
 
       <Row>
         <h2>Congrats! You're a Member! Explore more ways to play.</h2>

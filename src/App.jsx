@@ -9,6 +9,7 @@ import About from './About.jsx'
 import Research from './research.jsx' //dont know why this needs to be lowercase, but it works either way
 import SportsBettingReddit from './researchpages/SportsBettingReddit.jsx';
 import CommercializationMMO from './researchpages/CommercializationMMO.jsx';
+import Subpage from './components/Subpage.jsx'
 
 function App() {
   return (     
@@ -19,8 +20,11 @@ function App() {
             <Route path="/" element={<Home />} />
 
             <Route path="/research" element={<Research />} />
-            <Route path="/research/sports-betting-on-reddit" element={<SportsBettingReddit />} />
-            <Route path="/research/commercialization-of-childrens-mmo-games" element={<CommercializationMMO />} />
+            
+            <Route element={<Subpage />}>
+              <Route path="/research/sports-betting-on-reddit" element={<SportsBettingReddit />} />
+              <Route path="/research/commercialization-of-childrens-mmo-games" element={<CommercializationMMO />} />
+            </Route>
 
             <Route path="/about" element={<div className="row"><About /></div>} />       
           </Routes>   

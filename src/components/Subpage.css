@@ -1,0 +1,32 @@
+.subpage-header {
+  position: sticky;
+  top: 12vh;
+  z-index: 1000;
+
+  display: flex;
+  align-items: center;
+
+  padding-left: 5.5vw;
+  margin-top: -0vh;
+}
+
+.back-button {
+  background: none;
+  border: none;
+
+  color: var(--text-h);
+  font: inherit;
+  cursor: pointer;
+
+  padding: 0;
+}
+
+.back-button:hover {
+  color: #f3f3f3;
+}
+
+.subpage-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
