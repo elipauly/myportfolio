@@ -1,7 +1,7 @@
 .subpage-header {
   position: sticky;
   top: 12vh;
-  z-index: 1000;
+  z-index: 5000;
 
   display: flex;
   align-items: center;
@@ -19,10 +19,16 @@
   cursor: pointer;
 
   padding: 0;
+  margin-top: 4rem;
+}
+
+.back-button {
+  transition-duration: 0.4s;
 }
 
 .back-button:hover {
-  color: #f3f3f3;
+  color: #6b6375;
+  text-shadow: #F3F3F3 0 0 10px;
 }
 
 .subpage-content {

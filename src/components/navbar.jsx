@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
-function BasicExample() {
+function NavBar() {
   return (
     <Navbar expand="lg" className="w-100" sticky="top">
       <Container className="whole-navbar">
@@ -22,4 +22,4 @@ function BasicExample() {
   );
 }
 
-export default BasicExample;
+export default NavBar;

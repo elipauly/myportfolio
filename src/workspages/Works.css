@@ -1,0 +1,21 @@
+.container-works {
+  max-width: 65vw;
+  margin: 0 auto;
+  padding: 0 3rem;
+  padding-top: 0rem;
+}
+
+.full-row-left {
+
+}
+
+.full-row-right {
+
+}
+
+.full-row-img {
+    width: 40vw;
+    aspect-ratio: 5 / 2;
+    overflow: hidden;
+    object-fit: cover;
+}

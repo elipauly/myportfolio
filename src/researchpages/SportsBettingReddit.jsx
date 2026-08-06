@@ -11,7 +11,7 @@ function SportsBettingReddit() {
   };  
 
   return (
-    <Container className="container container-about">
+    <Container className="container container-research-page">
       <Row>
         <h2>Winning Beats Everything, Except More Winning</h2>
         <h3>Pauly, MacKinlay, & Brewer, 2026</h3>

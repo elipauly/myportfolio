@@ -1,5 +1,4 @@
 import '../Research.css'
-import BackButton from '../components/BackButton.jsx'
 import { useNavigate } from "react-router";
 
 import Container from 'react-bootstrap/Container'
@@ -14,7 +13,7 @@ function CommercializationMMO() {
   };  
 
   return (
-    <Container className="container container-about">
+    <Container className="container container-research-page">
 
       <Row>
         <h2>Congrats! You're a Member! Explore more ways to play.</h2>

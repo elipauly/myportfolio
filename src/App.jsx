@@ -9,6 +9,7 @@ import About from './About.jsx'
 import Research from './research.jsx' //dont know why this needs to be lowercase, but it works either way
 import SportsBettingReddit from './researchpages/SportsBettingReddit.jsx';
 import CommercializationMMO from './researchpages/CommercializationMMO.jsx';
+import Amplication from './workspages/Amplication.jsx'
 import Subpage from './components/Subpage.jsx'
 
 function App() {
@@ -18,6 +19,11 @@ function App() {
           <Navbar/>
           <Routes>              
             <Route path="/" element={<Home />} />
+
+            <Route element={<Subpage />}>
+              <Route path="/amplication" element={<Amplication />} />
+            
+            </Route>
 
             <Route path="/research" element={<Research />} />
             
