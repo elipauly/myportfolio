@@ -14,7 +14,7 @@ import project4_img from "../assets/amplication_imgs/hausblendLogo.png";
 
 function Amplication() {
     return (
-    <Container className="container wrapper-container">
+    <>
     <Container className="container container-works">
         <Row>
             <Col>
@@ -25,34 +25,39 @@ function Amplication() {
             <img src="src/assets/images_homepage/hausblendLogo.png" alt="hausblend logo" className="primary-img-works"/>
         </Row>
         <Row>
-            <Col>
+            <Col md="auto" style={{ marginRight: '2rem' }}>
                 <h1 className="title title-left">overview</h1>
             </Col>
             <Col>
-                <p className="title-right"> AI Job Application Interface AI Job Application InterfaceAI Job Application InterfaceAI Job Application InterfaceAI Job Application InterfaceAI Job Application InterfaceAI Job Application InterfaceAI Job Application InterfaceAI Job Application Interfce </p>
+                <p className="title-left"> Amplication is a web app designed as a job application journal where users can keep track of their employment applications. In the current job market, it is not uncommon for jobseekers to apply to dozens of jobs. In this problem, we saw a need to create a tool for applicants to organize and track their job search process. We integrated AI to calculate how well an applicant’s resume applies to a job posting, and to generate practice interview questions from an existing job listing.</p>
             </Col>
         </Row>
     </Container>
 
-    {   //FULL WIDTH ROW 1
+    {   //FLUID 1 START
     }
-        <Row>
-            <Col className="full-row-left">
+    <Container fluid className="px-0">
+        <Row className="full-width-row g-0">
+            <Col md={6} className="full-row-left">
                 <img src={project1_img} className="full-row-img" alt="" />
                 <p className="title-right">these images are the full width row</p>
             </Col>
-            <Col className="full-row-right">
+            <Col md={6} className="full-row-right">
                 <img src={project1_img} className="full-row-img" alt="" />
                 <p className="title-left">second</p>
             </Col>
         </Row>
+    </Container>
+    {
+        //FLUID 1 END
+    }
 
     <Container className="container container-works">
         <Row>
             <Col>
                 <Row>
                     <p className="title-left">
-                        AI Job Application Interface AI Job Application InterfaceAI Job Application InterfaceAI Job Application InterfaceAI Job Application InterfaceAI Job Application InterfaceAI Job Application InterfaceAI Job Application InterfaceAI Job Application Interfa
+                        I entered this project after the base app functionality had been created, and saw a need to overhaul the interface to create a functional user experience. From there on, my team and I worked together to implement additional features in user flows that are intuitive and efficient.
                     </p>
                 </Row>
                 <Row>
@@ -74,7 +79,7 @@ function Amplication() {
 
         <Row>
             <p className="title-left">
-                AI Job Application Interface AI Job Application InterfaceAI Job Application InterfaceAI Job Application InterfaceAI Job Application InterfaceAI Job Application InterfaceAI Job Application InterfaceAI Job Application InterfaceAI Job Application Interfa
+                With this project, I gained more experience designing for a user’s flow and working with strict technical requirements. This project taught me how to implement file database systems in Python apps, and I learned the technical foundations of APIs, routing, and testing for application development. My team and I faced a tight time constraint, and had to come together to design concessions to our original plan while completing our full product delivery. 
             </p>
         </Row>
 
@@ -92,20 +97,26 @@ function Amplication() {
 
     </Container>
 
-    {   //FULL WIDTH ROW 2  
+    {
+        //FLUID 2 START
     }
-        <Row>
-            <Col className="full-row-left">
-                <img src={project1_img} className="full-row-img" alt="" />
-                <p className="title-right">these images are the full width row</p>
-            </Col>
-            <Col className="full-row-right">
-                <img src={project1_img} className="full-row-img" alt="" />
-                <p className="title-left">second</p>
-            </Col>
-        </Row>
-
+    <Container fluid className="px-0">
+            <Row className="full-width-row g-0">
+                <Col md={6} className="full-row-left">
+                    <img src={project1_img} className="full-row-img" alt="" />
+                    <p className="title-right">these images are the full width row</p>
+                </Col>
+                <Col md={6} className="full-row-right">
+                    <img src={project1_img} className="full-row-img" alt="" />
+                    <p className="title-left">second</p>
+                </Col>
+            </Row>
     </Container>
+    {
+        //FLUID 2 END
+    }
+
+    </>
   );
 }
 

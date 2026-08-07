@@ -6,16 +6,29 @@
 }
 
 .full-row-left {
-
+  padding-right: .8rem;
 }
 
 .full-row-right {
-
+  padding-left: .8rem;
 }
 
 .full-row-img {
-    width: 40vw;
+    width: 45vw;
+    height: 40vh;
     aspect-ratio: 5 / 2;
     overflow: hidden;
     object-fit: cover;
+    display: block;
+    width: 100%;
+}
+    
+
+.full-width-row {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
 }
