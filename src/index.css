@@ -24,7 +24,6 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
 }
 
 @media (prefers-color-scheme: dark) {
@@ -49,11 +48,10 @@
 
 body {
   margin: 0;
-  padding-bottom: 3rem;
 }
 
 #root {
-  width: 100vw;
+  width: 100%;
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
@@ -62,6 +60,8 @@ body {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
+  background: var(--bg);
+  padding-bottom: 3rem;
 }
 
 h1,
@@ -117,3 +117,25 @@ p {
 .title-left {
   text-align: left;
 } 
+
+.bg-wrapper{
+  position: relative;
+  min-height: 100vh;
+  isolation: isolate;
+  background: transparent;
+}
+
+.bg-wrapper::before {
+  content: "";
+  position: fixed;
+  z-index: -1;
+  top: -20px;
+  left: -20px;
+  width: calc(100% + 40px);
+  height: calc(100% + 40px);
+
+  background-image: url('./assets/bg_squiggle.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

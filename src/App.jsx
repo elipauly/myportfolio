@@ -14,7 +14,8 @@ import Amplication from './workspages/Amplication.jsx';
 import Subpage from './components/Subpage.jsx';
 
 function App() {
-  return (     
+  return (
+    <div className="bg-wrapper"> 
       <BrowserRouter>       
         <main>
           <JumpToTop/ >         
@@ -37,7 +38,8 @@ function App() {
             <Route path="/about" element={<div className="row"><About /></div>} />       
           </Routes>   
         </main>     
-      </BrowserRouter>   
+      </BrowserRouter>
+    </div>       
   ); 
 }  
 
