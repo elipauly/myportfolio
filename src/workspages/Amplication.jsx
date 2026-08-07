@@ -52,25 +52,36 @@ function Amplication() {
         //FLUID 1 END
     }
 
+    
     <Container className="container container-works">
-        <Row>
-            <Col>
-                <Row>
-                    <p className="title-left">
-                        I entered this project after the base app functionality had been created, and saw a need to overhaul the interface to create a functional user experience. From there on, my team and I worked together to implement additional features in user flows that are intuitive and efficient.
-                    </p>
-                </Row>
-                <Row>
-                    <img src={project1_img} className="full-row-img" alt="" />
-                </Row>
+
+    {
+        //MASONRY START
+    }
+        <Row className="masonry-row">
+            <Col className="masonry-col">
+                <p className="title-left">
+                    I entered this project after the base app functionality had been created, and saw a need to overhaul the interface to create a functional user experience. From there on, my team and I worked together to implement additional features in user flows that are intuitive and efficient.
+                </p>
+                
+                <img
+                    src={project1_img}
+                    className="full-row-img"
+                    alt="" />
             </Col>
-            <Col className="">
-                <Row>
-                    <img src={project1_img} className="full-row-img" alt="" />
-                    <p>this should be the big long image</p>
-                </Row>
+            <Col className="masonry-col">
+                <img
+                    src={project1_img}
+                    className="full-row-img"
+                    alt="" />
+                <p>
+                    this should be the big long image I entered this project after the base app functionality had been created, and s
+                </p>
             </Col>
         </Row>
+    {
+        //MASONRY END
+    }
 
         <Row>
             <img src="src/assets/images_homepage/hausblendLogo.png" alt="hausblend logo" className="primary-img-works"/>
