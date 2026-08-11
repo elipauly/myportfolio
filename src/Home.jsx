@@ -19,16 +19,18 @@ function Home() {
       </Row>
       <Row gx-2 className="row-home">
         <Col>
-        <Link to="/amplication" className="page-link">
+        <Link to="/hausblend" className="page-link">
           <img src="src/assets/images_homepage/hausblendLogo.png" alt="hausblend logo" className="home-image left-image"/>
-          <h2>Amplication</h2>
+          <h2>hausblend</h2>
           <p>Mobile App Design</p>
         </Link>
         </Col>
         <Col>
+          <Link to="/amplication" className="page-link">
           <img src="src/assets/images_homepage/hausblendLogo.png" alt="hausblend logo" className="home-image right-image"/>
           <h2>Amplication</h2>
           <p>AI Job Application Interface</p>
+          </Link>
         </Col>
       </Row>
       <Row gx-2 className="row-home">

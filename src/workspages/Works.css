@@ -17,6 +17,13 @@
   display: block;
 }
 
+.works-divider {
+  border: none;
+  height: 2.3px;
+  background-color: #000000;
+  opacity: 1;
+}
+
 .full-row-left {
   padding-right: .8rem;
 }
