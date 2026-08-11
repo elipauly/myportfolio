@@ -6,7 +6,7 @@ import JumpToTop from './components/JumpToTop.jsx';
 //pages
 import Home from './Home.jsx'
 import About from './About.jsx'
-import Research from './research.jsx' //dont know why this needs to be lowercase, but it works either way
+import Research from './Research.jsx' //dont know why this needs to be lowercase, but it works either way
 import SportsBettingReddit from './researchpages/SportsBettingReddit.jsx';
 import CommercializationMMO from './researchpages/CommercializationMMO.jsx';
 
