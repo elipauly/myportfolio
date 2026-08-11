@@ -41,7 +41,7 @@ function About() {
     <Container className="container container-about">
       <Row gx-2>
         <Col>
-            <h2 className="title title-left">about</h2>
+            <h2 className="title title-left">hello, my friend</h2>
           </Col>
           
           <Col>
@@ -53,7 +53,13 @@ function About() {
       </Row>
       <Row gx-2>
         <Col>
-          <p className="title-left">I am a recent graduate from the University of Iowa, where I earned both my Bachelor’s and Master’s in Informatics, focused with Human-Computer Interaction and graphic design.  I am captivated by street signs and difficult questions. I am a pleasant coworker, and open to work in Berlin. Und ja, ich rede Deutsch. My journal is this color.</p>
+        <p className="title-left">
+            elizabeth.s.pauly@gmail.com
+          </p>
+          <p className="title-left">
+            +1 3194917151
+          </p>
+          <p className="title-left">I recently graduated from the University of Iowa with a Master’s in Informatics, focused in Human-Computer Interaction and graphic design.  I am captivated by street signs, difficult questions, and statistics. I am a pleasant coworker, and available for work in NYC & Berlin. Und ja, ich rede Deutsch. My journal is this color.</p>
         </Col>
         <Col className='resume-col'>
             <h2 onClick={onResumeClick} className="title-right resume-link">my resume.pdf</h2>

@@ -9,7 +9,7 @@ import Col from 'react-bootstrap/Col'
 function Home() {
   return (
     <Container className="container container-home">
-      <Row gx-2 className="row-home">
+      <Row gx-2>
         <Col>
         <h1 className='title title-right'>ui/ux</h1>
         </Col>

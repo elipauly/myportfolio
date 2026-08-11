@@ -8,9 +8,12 @@ import Col from 'react-bootstrap/Col';
 
 //images
 import project1_img from "../assets/amplication_imgs/hausblendLogo.png";
-import project2_img from "../assets/amplication_imgs/hausblendLogo.png";
-import project3_img from "../assets/amplication_imgs/hausblendLogo.png";
-import project4_img from "../assets/amplication_imgs/hausblendLogo.png";
+import project2_img from "../assets/amplication_imgs/dashboard.jpg";
+import project3_img from "../assets/amplication_imgs/job-search.jpg";
+import project4_img from "../assets/amplication_imgs/login.jpg";
+import project5_img from "../assets/amplication_imgs/before1.png";
+import project6_img from "../assets/amplication_imgs/before2.png";
+import project7_img from "../assets/amplication_imgs/beforelogin.png";
 
 function Amplication() {
     return (
@@ -22,7 +25,12 @@ function Amplication() {
             </Col>
         </Row>
         <Row className="row-home">
-            <img src="src/assets/images_homepage/hausblendLogo.png" alt="hausblend logo" className="primary-img-works"/>
+            <Col>
+            <img
+                    src={project2_img}
+                    className="full-row-img"
+                    alt="" />
+            </Col>
         </Row>
         <Row>
             <Col md="auto" style={{ marginRight: '2rem' }}>
@@ -30,6 +38,9 @@ function Amplication() {
             </Col>
             <Col>
                 <p className="title-left"> Amplication is a web app designed as a job application journal where users can keep track of their employment applications. In the current job market, it is not uncommon for jobseekers to apply to dozens of jobs. In this problem, we saw a need to create a tool for applicants to organize and track their job search process. We integrated AI to calculate how well an applicant’s resume applies to a job posting, and to generate practice interview questions from an existing job listing.</p>
+                <a className="github-link" href="https://github.com/cspahn1695/ai-job-application-tracker/tree/main" target="_blank" rel="noopener noreferrer">
+                    github →
+                </a>
             </Col>
         </Row>
     </Container>
@@ -38,12 +49,12 @@ function Amplication() {
     }
     <Container fluid className="px-0">
         <Row className="full-width-row g-0">
-            <Col md={6} className="full-row-left">
-                <img src={project1_img} className="full-row-img" alt="" />
+            <Col md={6} className="full-row-left full-row-left">
+                <img src={project2_img} className="full-row-img rightanch" alt="" />
                 <p className="title-right">these images are the full width row</p>
             </Col>
             <Col md={6} className="full-row-right">
-                <img src={project1_img} className="full-row-img" alt="" />
+                <img src={project3_img} className="full-row-img leftanch" alt="" />
                 <p className="title-left">second</p>
             </Col>
         </Row>
@@ -54,38 +65,48 @@ function Amplication() {
 
     
     <Container className="container container-works">
-
+    <hr />
     {
         //MASONRY START
     }
         <Row className="masonry-row">
             <Col className="masonry-col">
+                <h3 className='title title-left'>path of improvement</h3>
                 <p className="title-left">
-                    I entered this project after the base app functionality had been created, and saw a need to overhaul the interface to create a functional user experience. From there on, my team and I worked together to implement additional features in user flows that are intuitive and efficient.
+                    When I entered this project, the base app functionality had been created with this bare interface. I saw a need to overhaul the interface to create a functional user experience.
                 </p>
                 
                 <img
-                    src={project1_img}
-                    className="full-row-img"
+                    src={project6_img}
+                    className="masonry-img"
                     alt="" />
             </Col>
             <Col className="masonry-col">
                 <img
-                    src={project1_img}
-                    className="full-row-img"
+                    src={project5_img}
+                    className="masonry-img"
                     alt="" />
-                <p>
-                    this should be the big long image I entered this project after the base app functionality had been created, and s
+                <p className="title-left">
+                    We collaborated to redefine our target requirements, and I took the responsibility for implementing a new interface that would allow users to easily navigate the app and design an intuitive flow for this tracking app. From this foundation, my team and I worked together to implement additional features while prioritizing user flows that are intuitive and efficient. To elevate an app from functional into a product that is easy to use and a true experience was a new challenge that I enjoyed.
                 </p>
             </Col>
         </Row>
     {
         //MASONRY END
     }
+    <hr />
+    </Container>
+
+    <Container className="container container-works">
 
         <Row>
-            <img src="src/assets/images_homepage/hausblendLogo.png" alt="hausblend logo" className="primary-img-works"/>
-            <p className="title-left">About</p>
+            <Col>
+            <img
+                    src={project4_img}
+                    className="full-row-img"
+                    alt="" />
+            <p className="title-left">Log-in page</p>
+            </Col>
         </Row>
 
         <Row>
@@ -96,13 +117,19 @@ function Amplication() {
 
         <Row>
             <Col>
-                <img src="src/assets/images_homepage/hausblendLogo.png" alt="hausblend logo" className="full-row-img"/>
-                <p className="title-left">about</p>
+                <img
+                    src={project7_img}
+                    className="full-row-img"
+                    alt="" />
+                <p className="title-left">Initial log-in container</p>
             </Col>
 
             <Col>
-                <img src="src/assets/images_homepage/hausblendLogo.png" alt="hausblend logo" className="full-row-img"/>
-                <p className="title-left">about</p>
+                <img
+                    src={project4_img}
+                    className="full-row-img"
+                    alt="" />
+                <p className="title-right">Log-in container after clarifying adjustments</p>
             </Col>
         </Row>
 
@@ -110,20 +137,20 @@ function Amplication() {
 
     {
         //FLUID 2 START
-    }
+    /*
     <Container fluid className="px-0">
             <Row className="full-width-row g-0">
                 <Col md={6} className="full-row-left">
-                    <img src={project1_img} className="full-row-img" alt="" />
+                    <img src={project2_img} className="full-row-img" alt="" />
                     <p className="title-right">these images are the full width row</p>
                 </Col>
                 <Col md={6} className="full-row-right">
-                    <img src={project1_img} className="full-row-img" alt="" />
+                    <img src={project3_img} className="full-row-img" alt="" />
                     <p className="title-left">second</p>
                 </Col>
             </Row>
     </Container>
-    {
+    */
         //FLUID 2 END
     }
 

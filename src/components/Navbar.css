@@ -20,4 +20,12 @@
     font-size: 1.3rem;
     letter-spacing: 0.01em;
     text-transform: lowercase;
+    transition: text-shadow 0.4s ease-in-out;
+
+}
+
+.nav-link:hover {
+    text-decoration: none;
+      text-shadow: 0 0 3px #555555, 0 0 10px #555555, 0 0 0px #555555, 0 0 0px #555555;
+
 }
