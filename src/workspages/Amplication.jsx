@@ -2,7 +2,6 @@ import "./Works.css";
 import GalleryImage from "../components/GalleryImage";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import { Link } from "react-router";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -30,7 +29,7 @@ function Amplication() {
             <Col>
             <GalleryImage
                     src={project2_img}
-                    className="full-row-img"
+                    className="full-row-img white-fill"
                     alt="Amplication Branding Visual"
                     caption="Amplication Header" />
             </Col>
@@ -55,7 +54,7 @@ function Amplication() {
             <Col md={6} className="full-row-left full-row-left">
                 <GalleryImage
                     src={project2_img}
-                    className="full-row-img rightanch"
+                    className="full-row-img rightanch white-fill"
                     alt="screenshot of the dashboard page"
                     caption="My Application Journal Dashboard" />
                 <p className="title-right">My Application Journal Dashboard</p>
@@ -63,7 +62,7 @@ function Amplication() {
             <Col md={6} className="full-row-right">
                 <GalleryImage
                     src={project3_img}
-                    className="full-row-img leftanch"
+                    className="full-row-img leftanch white-fill"
                     alt="Screenshot of the job search page"
                     caption="Job Search Page" />
                 <p className="title-left">Job Search Page</p>
@@ -88,14 +87,14 @@ function Amplication() {
                 
                 <GalleryImage
                     src={project6_img}
-                    className="masonry-img"
+                    className="masonry-img white-fill"
                     alt="Screenshot of the initial statistics page"
                     caption="Early interface to view my job application stats, this became the right half of the dashboard" />
             </Col>
             <Col className="masonry-col">
                 <GalleryImage
                     src={project5_img}
-                    className="masonry-img"
+                    className="masonry-img white-fill"
                     alt="Screenshot of the initial dashboard page"
                     caption="Early interface to log a tracked application, this became the interactive dashboard components" />
                 <p className="title-left">
@@ -115,7 +114,7 @@ function Amplication() {
             <Col>
             <GalleryImage
                     src={project8_img}
-                    className="full-row-img"
+                    className="full-row-img white-fill"
                     alt="Screenshot of the interview prep page"
                     caption="Interview Prep Page" />
             <p className="title-left">Interview Prep Page, Questions are from rule-based generator lifting information directly from Adzuna job postings. We failed to implement true LLM question generation, but we have a visual foundation for future improvements. </p>
@@ -126,7 +125,7 @@ function Amplication() {
             <Col>
                 <GalleryImage
                     src={project7_img}
-                    className="full-row-img"
+                    className="full-row-img white-fill"
                     alt="screenshot of the early log-in container"
                     caption="Early log-in container" />
                 <p className="title-left">Early log-in container</p>
@@ -135,7 +134,7 @@ function Amplication() {
             <Col>
                 <GalleryImage
                     src={project4_img}
-                    className="full-row-img"
+                    className="full-row-img white-fill"
                     alt="Screenshot of the final log-in container"
                     caption="Final log-in container after clarifying adjustments" />
                 <p className="title-right">Final log-in container after clarifying adjustments</p>

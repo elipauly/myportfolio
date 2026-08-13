@@ -22,6 +22,7 @@
   height: 2.3px;
   background-color: #000000;
   opacity: 1;
+  margin-bottom: 2rem;
 }
 
 .full-row-left {
@@ -38,7 +39,7 @@
     aspect-ratio: 5 / 2;
     overflow: hidden;
     object-fit: contain;
-    background-color: #FFFFFF;
+    
     display: block;
     margin-bottom: .8rem;
 }
@@ -86,4 +87,67 @@
 
 .masonry-col p {
   flex-grow: 1;
+}
+
+.white-fill {
+  background-color: #FFFFFF;
+}
+
+.grey-fill {
+  background-color: #606060;
+}
+
+.gray-fill {
+  background-color: #1C1C1C;
+}
+
+.green-fill {
+  background-color: #d0da5f;
+}
+
+.mobile-gallery {
+    align-items: flex-start;
+    margin-top: 2rem;
+}
+
+.mobile-gallery-col {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.mobile-gallery-item {
+  width: 100%;
+  max-width:320px;
+}
+
+.mobile-gallery-img {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    object-fit: contain;
+
+    cursor: pointer;
+}
+
+
+/* =========================================
+   GIF GALLERY
+========================================= */
+
+.gif-gallery {
+    align-items: flex-start;
+    margin-top: 2rem;
+}
+
+.gif-gallery-col {
+    margin-bottom: 3rem;
+}
+
+.gif-gallery-img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+
+    cursor: pointer;
 }
