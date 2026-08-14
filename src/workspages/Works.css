@@ -33,6 +33,12 @@
   padding-left: .8rem;
 }
 
+.full-col-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 .full-row-img {
     width: 100%;
     height: 40vh;
@@ -46,12 +52,10 @@
 
 .full-row-img.leftanch {
   object-position: left;
-  padding-left: 1.5rem;
 }
 
 .full-row-img.rightanch {
   object-position: right;
-  padding-right: 1.5rem;
 }
 
 .masonry-img {
@@ -92,17 +96,18 @@
 .white-fill {
   background-color: #FFFFFF;
 }
-
 .grey-fill {
   background-color: #606060;
 }
-
 .gray-fill {
   background-color: #1C1C1C;
 }
-
 .green-fill {
   background-color: #d0da5f;
+}
+.f3f3f3-fill {
+  background-color: #F3F3F3;
+  margin-left: 0rem;
 }
 
 .mobile-gallery {

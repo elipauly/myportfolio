@@ -59,12 +59,12 @@ function Hausblend() {
 
                 <Col>
                     <p className="title-left">
-                        Hausblend is a mobile coffee recipe app designed
+                        hausblend is a mobile coffee recipe app designed
                         to help coffee enthusiasts discover, save, and
-                        share recipes. The project explores how a recipe
-                        platform can combine discovery, customization,
-                        and community interaction into a focused mobile
-                        experience.
+                        share recipes. Inspired by techno aesthetics, the daily
+                        coffee grind is imbued with a bolder flavor. Striking color, angular forms, 
+                        and quirky layouts
+                        blend into an experience that is memorable, exciting, and caffeinated.
                     </p>
                     <a
                             className="github-link"
@@ -120,15 +120,14 @@ function Hausblend() {
                     <p className="title-right">hausblend wordmark</p>
 
                     <h3 className="title title-left">
-                        visual direction
+                        visual identity
                     </h3>
 
                     <p className="title-left">
-                        The visual identity for Hausblend began with
-                        exploring different approaches to representing
-                        coffee, recipes, and the social aspects of the
-                        app. These explorations helped establish the
-                        visual language used throughout the mobile
+                        The visual direction for Hausblend began with 
+                        researching different approaches to coffee and recipe interfaces,
+                        and exploring how those could connect with a techno-inspired identity.
+                        These explorations helped build the foundation for the visual language within the mobile
                         interface.
                     </p>
                     <GalleryImage
@@ -150,7 +149,10 @@ function Hausblend() {
                     />
                     <p className="title-left">Recipe page and comment flow</p>
                     <p className="title-left">
-                        bullshirt
+                        Balancing a striking brand identify with the clarity required for a
+                        mobile application was a challenge. By maintaining the foundational
+                        layouts and functions that we are familiar with in apps, I could take liberties
+                        with unconventional colors and fonts without creating additional friction for a user.
                     </p>
 
                 </Col>
@@ -174,11 +176,10 @@ function Hausblend() {
                     </h2>
 
                     <p className="title-left">
-                        The core experience centers around discovering
-                        coffee recipes, viewing individual recipes, and
-                        interacting with the coffee community. The
-                        vertical screenshots are presented together here
-                        to emphasize the progression through the mobile
+                        
+                        The app is centered around discovering
+                        coffee drinks, viewing individual recipes, rating recipes, and commenting. The
+                        vertical screenshots presented here display the progression through the mobile
                         interface.
                     </p>
                 </Col>
@@ -221,7 +222,7 @@ function Hausblend() {
                         <GalleryImage
                             src={search}
                             className="mobile-gallery-img"
-                            alt="Hausblend search screenshot"
+                            alt="Recipe Search screenshot"
                             caption="Recipe Search dropdown"
                         />
                         <p className="title-left">
@@ -246,22 +247,19 @@ function Hausblend() {
                 <Col className="masonry-col">
 
                     <h3 className="title title-left">
-                        Log-in & allowances
+                        log-in & allowances
                     </h3>
 
                     <p className="title-left">
-                        The visual identity for Hausblend began with
-                        exploring different approaches to representing
-                        coffee, recipes, and the social aspects of the
-                        app. These explorations helped establish the
-                        visual languag
+                        When researching mobile log-in interfaces, I became familiar with the
+                        allowances that need to be accounted for in the authentication process.
                     </p>
 
                     <GalleryImage
                         src={figma}
                         className="masonry-img gray-fill"
-                        alt="Hausblend visual design exploration"
-                        caption="Early visual exploration and interface direction"
+                        alt="Screenshot of Figma log-in prototype"
+                        caption="Figma log-in flow prototyping"
                     />
                     <p className="title-right">Figma log-in flow</p>
 
@@ -271,10 +269,15 @@ function Hausblend() {
                     <GalleryImage
                         src={logingif}
                         className="masonry-img"
-                        alt="Hausblend login screen"
-                        caption="Hausblend login screen"
+                        alt="Hausblend login screen walkthrough gif"
+                        caption="Hausblend login screen walkthrough"
                     />
-                    <p className="title-left">App homepage</p>
+                    <p className="title-left">Log-in walkthrough </p>
+                     <p className="title-left">
+                        We've all had frustrations with navigating poorly designed log-in pages, 
+                        I explored how different "unallowed" actions or user errors would be called out in
+                        the app, and how that information could be smoothly displayed.
+                    </p>
 
                 </Col>
 
@@ -297,7 +300,12 @@ function Hausblend() {
                     </h2>
 
                     <p className="title-left">
-                        this is a walkthrough path of using a user-generated rating system to build repoire and trust in a recipe.
+                        Recipe ratings establish trust with users who may be trying
+                        something new. Having a more meaningful interaction within the app
+                        than solely viewing static recipes was an important
+                        addition to make the app feel necessary. Without needing to handle
+                        user-to-user interactions, users are able to view content produced by
+                        other users and feel a community presence. 
                     </p>
                 </Col>
             </Row>
@@ -309,7 +317,7 @@ function Hausblend() {
                     <GalleryImage
                         src={recipe1}
                         className="mobile-gallery-img"
-                        alt="Hausblend recipe page"
+                        alt="Hausblend recipe page screenshot"
                         caption="Individual coffee recipe"
                     />
                 </Col>
@@ -318,7 +326,7 @@ function Hausblend() {
                     <GalleryImage
                         src={viewcomm2}
                         className="mobile-gallery-img"
-                        alt="Hausblend recipe comments"
+                        alt="Hausblend recipe comment screenshot"
                         caption="Viewing recipe comments"
                     />
                 </Col>
@@ -327,7 +335,7 @@ function Hausblend() {
                     <GalleryImage
                         src={subcomm3}
                         className="mobile-gallery-img"
-                        alt="Hausblend comment submission"
+                        alt="Hausblend comment submission screenshot"
                         caption="Submitting a recipe comment"
                     />
                 </Col>
@@ -348,45 +356,28 @@ function Hausblend() {
                 <Col className="masonry-col">
 
                     <h3 className="title title-left">
-                        interaction flow
+                        app homepage
                     </h3>
-
-                    <p className="title-left">
-                        The visual identity for Hausblend began with
-                        exploring different approaches to representing
-                        coffee, recipes, and the social aspects of the
-                        app. These explorations helped establish the
-                        visual language used throughout the mobile
-                        interface.
-                    </p>
-
                     <GalleryImage
-                        src={reviewloopgif}
-                        className="masonry-img gray-fill"
-                        alt="Hausblend visual design exploration"
-                        caption="Early visual exploration and interface direction"
+                        src={homepageloopgif}
+                        className="masonry-img"
+                        alt="App homepage gif"
+                        caption="App homepage walkthrough"
                     />
-                    <p className="title-right">Figma log-in flow</p>
 
                 </Col>
 
                 <Col className="masonry-col">
-                    <p className="title-left">
-                        The visual identity for Hausblend began with
-                        exploring different approaches to representing
-                        coffee, recipes, and the social aspects of the
-                        app. These explorations helped establish the
-                        visual language used throughout the mobile
-                        interface.
-                    </p>
+                    <h3 className="title title-left">
+                        recipe&review
+                    </h3>
+                    
                     <GalleryImage
-                        src={homepageloopgif}
-                        className="masonry-img"
-                        alt="Hausblend login screen"
-                        caption="Hausblend login screen"
+                        src={reviewloopgif}
+                        className="masonry-img gray-fill"
+                        alt="Read and review recipe walkthrough gif"
+                        caption="Read and review recipe walkthrough"
                     />
-                    <p className="title-left">App homepage</p>
-
                 </Col>
 
             </Row>
@@ -394,25 +385,30 @@ function Hausblend() {
             <hr className="works-divider" />
 
             <Row>
+                <Col md="auto" style={{ marginRight: "2rem" }}>
+                    <h1 className="title title-left">
+                        reflection
+                    </h1>
+                </Col>
+
                 <Col>
-                        <a
+                    <p className="title-left">
+                        Hausblend was among my first projects working with Figma, and creating mobile app design.
+                        Diving headfirst into such an unfamiliar project was intimidating, but approaching
+                        with a learning perspective let me explore movement within design in a whole new way.
+                        Since then, I've grown experienced with Figma and touch-interface principles, and it
+                        was through this project that I gained my foundational experience.
+                        I had the opportunity to explore how branding and interface
+                        can work together to create a product that feels both
+                        cohesive and exciting.
+                    </p>
+                    <a
                             className="github-link"
                             style={{ textAlign: 'left', fontSize: '24px', marginTop: '-.4em', marginBottom: '1em'}}
                             href="#"
                         >
                             full app walkthrough video →
                         </a>
-
-                    <p className="title-left">
-                        Hausblend gave me an opportunity to explore
-                        designing for a mobile-first experience while
-                        balancing recipe discovery, personalization,
-                        and community interaction. The project also
-                        allowed me to explore how branding and interface
-                        design can work together to create a cohesive
-                        product experience.
-                    </p>
-
                 </Col>
             </Row>
 

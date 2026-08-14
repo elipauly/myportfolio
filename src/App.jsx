@@ -12,6 +12,7 @@ import CommercializationMMO from './researchpages/CommercializationMMO.jsx';
 
 import Amplication from './workspages/Amplication.jsx';
 import Hausblend from './workspages/Hausblend.jsx';
+import SummerJobs from './workspages/SummerJobs.jsx';
 
 import Subpage from './components/Subpage.jsx';
 import { LightboxProvider } from './components/LightboxProvider.jsx';
@@ -30,6 +31,7 @@ function App() {
               <Route element={<Subpage />}>
                 <Route path="/amplication" element={<Amplication />} />
                 <Route path="/hausblend" element={<Hausblend />} />
+                <Route path="/summerjobs" element={<SummerJobs />} />
               
               </Route>
 

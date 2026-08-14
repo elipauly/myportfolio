@@ -19,135 +19,353 @@ import project7_img from "../assets/amplication_imgs/beforelogin.png";
 function Amplication() {
     return (
     <>
+
     <Container className="container container-works">
-        <Row>
-            <Col>
-            <h1 className='title title-left'>Amplication</h1>
-            </Col>
-        </Row>
-        <Row className="row-home">
-            <Col>
+
+    {/* =========================================
+        HEADER
+    ========================================= */}
+
+    <Row>
+        <Col>
+            <h1 className="title title-left">
+                Amplication
+            </h1>
+        </Col>
+    </Row>
+
+    <Row className="row-home">
+        <Col>
             <GalleryImage
-                    src={project2_img}
-                    className="full-row-img white-fill"
-                    alt="Amplication Branding Visual"
-                    caption="Amplication Header" />
-            </Col>
-        </Row>
-        <Row>
-            <Col md="auto" style={{ marginRight: '2rem' }}>
-                <h1 className="title title-left">overview</h1>
-            </Col>
-            <Col>
-                <p className="title-left"> Amplication is a web app designed as a job application journal where users can keep track of their employment applications. In the current job market, it is not uncommon for jobseekers to apply to dozens of jobs. In this problem, we saw a need to create a tool for applicants to organize and track their job search process. We integrated AI to calculate how well an applicant’s resume applies to a job posting, and to generate practice interview questions from an existing job listing.</p>
-                <a className="github-link" href="https://github.com/cspahn1695/ai-job-application-tracker/tree/main" target="_blank" rel="noopener noreferrer">
-                    project on github →
-                </a>
-            </Col>
-        </Row>
-    </Container>
+                src={project2_img}
+                className="full-row-img white-fill"
+                alt="Amplication branding visual"
+                caption="Amplication"
+            />
+        </Col>
+    </Row>
 
-    {   //FLUID 1 START
-    }
-    <Container fluid className="px-0">
-        <Row className="full-width-row g-0">
-            <Col md={6} className="full-row-left full-row-left">
-                <GalleryImage
-                    src={project2_img}
-                    className="full-row-img rightanch white-fill"
-                    alt="screenshot of the dashboard page"
-                    caption="My Application Journal Dashboard" />
-                <p className="title-right">My Application Journal Dashboard</p>
-            </Col>
-            <Col md={6} className="full-row-right">
-                <GalleryImage
-                    src={project3_img}
-                    className="full-row-img leftanch white-fill"
-                    alt="Screenshot of the job search page"
-                    caption="Job Search Page" />
-                <p className="title-left">Job Search Page</p>
-            </Col>
-        </Row>
-    </Container>
-    {
-        //FLUID 1 END
-    }
 
-    
-    <Container className="container container-works">
-    {
-        //MASONRY START
-    }
-        <Row className="masonry-row">
-            <Col className="masonry-col">
-                <h3 className='title title-left'>path of improvement</h3>
-                <p className="title-left">
-                    When I entered this project, the base app functionality had been created with this bare interface. I saw a need to overhaul the interface to create a functional user experience.
-                </p>
-                
-                <GalleryImage
-                    src={project6_img}
-                    className="masonry-img white-fill"
-                    alt="Screenshot of the initial statistics page"
-                    caption="Early interface to view my job application stats, this became the right half of the dashboard" />
-            </Col>
-            <Col className="masonry-col">
-                <GalleryImage
-                    src={project5_img}
-                    className="masonry-img white-fill"
-                    alt="Screenshot of the initial dashboard page"
-                    caption="Early interface to log a tracked application, this became the interactive dashboard components" />
-                <p className="title-left">
-                    We collaborated to redefine our target requirements, and I took the responsibility for implementing a new interface that would allow users to easily navigate the app and design an intuitive flow for this tracking app. From this foundation, my team and I worked together to implement additional features while prioritizing user flows that are intuitive and efficient. To elevate an app from functional into a product that is easy to use and a true experience was a new challenge that I enjoyed.
-                </p>
-            </Col>
-        </Row>
-    {
-        //MASONRY END
-    }
-    <hr className="works-divider" />
-    </Container>
+    {/* =========================================
+        OVERVIEW
+    ========================================= */}
 
-    <Container className="container container-works">
+    <Row>
 
-        <Row>
-            <Col>
-            <GalleryImage
-                    src={project8_img}
-                    className="full-row-img white-fill"
-                    alt="Screenshot of the interview prep page"
-                    caption="Interview Prep Page" />
-            <p className="title-left">Interview Prep Page, Questions are from rule-based generator lifting information directly from Adzuna job postings. We failed to implement true LLM question generation, but we have a visual foundation for future improvements. </p>
-            </Col>
-        </Row>
+        <Col md="auto" style={{ marginRight: "2rem" }}>
+            <h2 className="title title-left">
+                overview
+            </h2>
+        </Col>
 
-        <Row>
-            <Col>
-                <GalleryImage
-                    src={project7_img}
-                    className="full-row-img white-fill"
-                    alt="screenshot of the early log-in container"
-                    caption="Early log-in container" />
-                <p className="title-left">Early log-in container</p>
-            </Col>
+        <Col>
 
-            <Col>
-                <GalleryImage
-                    src={project4_img}
-                    className="full-row-img white-fill"
-                    alt="Screenshot of the final log-in container"
-                    caption="Final log-in container after clarifying adjustments" />
-                <p className="title-right">Final log-in container after clarifying adjustments</p>
-            </Col>
-        </Row>
-
-        <Row>
             <p className="title-left">
-                With this project, I gained more experience designing for a user’s flow and working with strict technical requirements. This project taught me how to implement file database systems in Python apps, and I learned the technical foundations of APIs, routing, and testing for application development. My team and I faced a tight time constraint, and had to come together to design concessions to our original plan while completing our full product delivery. 
-            </p>
-        </Row>
 
-    </Container>
+
+                Amplication is a web app designed as a job application journal
+                where users can keep track of their employment applications.
+                In the current job market, it is not uncommon for jobseekers to apply to dozens of jobs,
+                creating a need for a tool that helps applicants organize and track their search process.
+            </p>
+
+            <p className="title-left">
+                We integrated AI-assisted features to calculate how well an applicant's resume
+                applies to a job posting, and to generate practice interview questions from an existing job listing.
+            </p>
+
+            <a
+                className="github-link"
+                href="https://github.com/cspahn1695/ai-job-application-tracker/tree/main"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                project on github →
+            </a>
+
+        </Col>
+
+    </Row>
+
+</Container>
+
+
+{/* =========================================
+    FINAL PRODUCT / FULL WIDTH
+========================================= */}
+
+<Container fluid className="px-0">
+
+    <Row className="full-width-row g-0">
+
+        <Col md={6} className="full-row-left">
+
+            <GalleryImage
+                src={project2_img}
+                className="full-row-img rightanch white-fill"
+                style={{ paddingRight: "1.5rem" }}
+                alt="Screenshot of the dashboard page"
+                caption="My Application Journal Dashboard"
+            />
+
+            <p className="title-right">
+                My Application Journal Dashboard
+            </p>
+
+        </Col>
+
+
+        <Col md={6} className="full-row-right">
+
+            <GalleryImage
+                src={project3_img}
+                className="full-row-img leftanch white-fill"
+                style={{ paddingLeft: "1.5rem" }}
+                alt="Screenshot of the job search page"
+                caption="Job Search Page"
+            />
+
+            <p className="title-left">
+                Job Search Page
+            </p>
+
+        </Col>
+
+    </Row>
+
+</Container>
+
+
+<Container className="container container-works">
+
+
+    {/* =========================================
+        PROCESS
+    ========================================= */}
+
+    <Row>
+
+        <Col md="auto" style={{ marginRight: "2rem" }}>
+            <h2 className="title title-left">
+                process
+            </h2>
+        </Col>
+
+        <Col>
+
+            <p className="title-left">
+                When I entered the project, the base application functionality
+                had already been established with a very minimal interface.
+                I saw an opportunity to rethink the experience and create an
+                interface that could make a complex job-search process feel
+                more manageable.
+            </p>
+
+            <p className="title-left">
+                My work focused on understanding the different tasks users
+                needed to accomplish, restructuring the interface around
+                those tasks, and creating a visual system that could support
+                additional functionality as the application developed.
+            </p>
+
+        </Col>
+
+    </Row>
+
+    <Row className="masonry-row">
+
+        <Col className="masonry-col">
+
+            <h3 className="title title-left">
+                improving the experience
+            </h3>
+
+            <p className="title-left">
+                The initial interface provided the basic functionality of
+                the application, but it was
+                difficult to understand how to navigate the product.
+            </p>
+
+            <GalleryImage
+                src={project6_img}
+                className="masonry-img white-fill"
+                alt="Screenshot of the initial statistics page"
+                caption="Early statistics interface"
+            />
+            <p>Early statistics interface</p>
+            
+
+        </Col>
+
+
+        <Col className="masonry-col">
+        <p className="title-left">
+                These early screens helped identify opportunities to
+                build clearer hierarchy and stronger relationships
+                in the dashboard.
+            </p>
+
+            <GalleryImage
+                src={project5_img}
+                className="masonry-img white-fill"
+                alt="Screenshot of the initial dashboard interface"
+                caption="Early application tracking interface"
+            />
+
+            <p className="title-left">
+                We collaborated to redefine our target requirements and prioritize the key features.
+                I took responsibility to implement a new interface that would allow users to easily navigate the app easily and maintain the funcitonality.
+                From this foundation, we added features while prioritizing flows that felt intuitive and efficient.
+                The challenge was not just functionality, but building an experience that feels cohesive and intentional.
+            </p>
+        </Col>
+
+    </Row>
+
+    <hr className="works-divider" />
+
+
+    {/* =========================================
+        INTERVIEW PREP
+    ========================================= */}
+
+    <Row>
+
+        <Col>
+
+            <h3 className="title title-left">
+                interview prep
+            </h3>
+
+            <p className="title-left">
+                After establishing the job-tracking experience,
+                we expanded the application with tools intended to support
+                users in securing a job.
+            </p>
+
+            <GalleryImage
+                src={project8_img}
+                className="full-row-img white-fill"
+                alt="Screenshot of the interview preparation page"
+                caption="Interview Prep Page"
+            />
+
+            <p className="title-left">
+                The Interview Prep tool generates questions using information
+                pulled directly from Adzuna job postings. Although we did not
+                ultimately implement true LLM-generated questions, the
+                interface provides a visual foundation for future development.
+            </p>
+
+        </Col>
+
+    </Row>
+
+
+    {/* =========================================
+        AUTHENTICATION
+    ========================================= */}
+
+    <Row>
+
+        <Col md="auto" style={{ marginRight: "2rem" }}>
+            <h2 className="title title-left">
+                refining the interface
+            </h2>
+        </Col>
+
+        <Col>
+
+            <p className="title-left">
+                We reworked individual components throughout the
+                application as the overall system became more defined.
+                Small interface pieces became opportunities to clarify
+                hierarchy, reduce visual noise, and make important actions
+                easier to understand.
+            </p>
+
+        </Col>
+
+    </Row>
+
+
+    <Row>
+
+        <Col>
+
+            <GalleryImage
+                src={project7_img}
+                className="full-row-img white-fill"
+                alt="Screenshot of the early login container"
+                caption="Early login container"
+            />
+
+            <p className="title-left">
+                Early login container
+            </p>
+
+        </Col>
+
+
+        <Col>
+
+            <GalleryImage
+                src={project4_img}
+                className="full-row-img white-fill"
+                alt="Screenshot of the revised login container"
+                caption="Final login container after clarifying adjustments"
+            />
+
+            <p className="title-right">
+                Final login container after clarifying adjustments
+            </p>
+
+        </Col>
+
+    </Row>
+
+
+
+    {/* =========================================
+        REFLECTION
+    ========================================= */}
+
+    <Row>
+
+        <Col md="auto" style={{ marginRight: "2rem" }}>
+            <h2 className="title title-left">
+                reflection
+            </h2>
+        </Col>
+
+        <Col>
+        <p className="title-left">
+                We worked with technical limitations and a tight time constraint.
+                Through reflection and focusing on our clear goals, we were able
+                to prioritize only the core experience, delivering a final application
+                that was functional, refined, and concise.
+            </p>
+
+            <p className="title-left">
+                The path to get there wasn't easy.
+                My team and I struggled in the beginning with unrealistic goals, hardware incompatibilities,
+                and a subpar working dynamic. Overcoming those difficulties taught me
+                how to collaborate and communicate in a professional team, even in difficult or stressful situations.
+            </p>
+
+            <p className="title-left">
+
+                I gained more experience working with file database systems, Python application
+                developemnt, and a stronger understanding of APIs, routing, and testing.
+                This project was a challenge in balancing the user experience
+                with the realities of project and timeline constraints, and overcoming problems as a team.
+            </p>
+
+        </Col>
+
+    </Row>
+
+</Container>
 
     {
         //FLUID 2 START

@@ -35,9 +35,11 @@ function Home() {
       </Row>
       <Row gx-2 className="row-home">
         <Col>
+          <Link to="/summerjobs" className="page-link">
           <img src="src/assets/images_homepage/hausblendLogo.png" alt="hausblend logo" className="home-image left-image"/>
           <h2>SummerJobs</h2>
           <p>Student Job Application Website</p>
+          </Link>
         </Col>
         <Col>
           <img src="src/assets/images_homepage/hausblendLogo.png" alt="hausblend logo" className="home-image right-image"/>
