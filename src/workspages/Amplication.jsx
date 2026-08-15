@@ -7,6 +7,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 //images
+import header from "../assets/amplication_imgs/amp_header.png"
 import project1_img from "../assets/amplication_imgs/hausblendLogo.png";
 import project2_img from "../assets/amplication_imgs/dashboard.jpg";
 import project3_img from "../assets/amplication_imgs/job-search.jpg";
@@ -37,7 +38,7 @@ function Amplication() {
     <Row className="row-home">
         <Col>
             <GalleryImage
-                src={project2_img}
+                src={header}
                 className="full-row-img white-fill"
                 alt="Amplication branding visual"
                 caption="Amplication"

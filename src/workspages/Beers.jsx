@@ -97,7 +97,7 @@ function Beers() {
             </p>
             <a
                 className="github-link"
-                href="#"
+                href="https://vimeo.com/1218469667?fl=ip&fe=ec"
             >
                 full game walkthrough video →
             </a>
@@ -532,7 +532,7 @@ function Beers() {
                 Even those Godless Philadelphians.
             </p><a
                 className="github-link"
-                href="#"
+                href="https://vimeo.com/1218469667?share=copy"
             >
                 full game walkthrough video →
             </a>

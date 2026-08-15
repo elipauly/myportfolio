@@ -7,8 +7,8 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
 //images
-import reddit_img from "./assets/images_homepage/hausblendLogo.png";
-import mmo_img from "./assets/images_homepage/hausblendLogo.png";  
+import reddit_img from "./assets/images_homepage/bertbetting.png";
+import mmo_img from "./assets/images_homepage/mmogames.png";  
 
 function Research() {
   return (

@@ -68,7 +68,7 @@ function Hausblend() {
                     </p>
                     <a
                             className="github-link"
-                            href="#"
+                            href="https://vimeo.com/1218469694?share=copy"
                         >
                             full app walkthrough video →
                         </a>
@@ -405,7 +405,7 @@ function Hausblend() {
                     <a
                             className="github-link"
                             style={{ textAlign: 'left', fontSize: '24px', marginTop: '-.4em', marginBottom: '1em'}}
-                            href="#"
+                            href="https://vimeo.com/1218469694?share=copy"
                         >
                             full app walkthrough video →
                         </a>

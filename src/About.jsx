@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
 //images
-import about_img from "./assets/images_homepage/hausblendLogo.png";
+import about_img from "./assets/images_homepage/eyes.png";
 import li_icon from "./assets/images_homepage/hausblendLogo.png";  
 import ig_icon from "./assets/images_homepage/hausblendLogo.png";  
 import mail_icon from "./assets/images_homepage/hausblendLogo.png";  
