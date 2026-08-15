@@ -90,7 +90,7 @@ function Beers() {
             </p>
 
             <p className="title-left">
-                Midwest emo is a rock subgenre born out of late 90s Midwest with a small, but dedicated
+                Midwest emo is a rock subgenre born out of late 90s Midwest with a small but dedicated
                 fanbase. People like to argue about it on Reddit. 
                 I knew I wanted this game to speak to this target audience,
                 and created meaningful imagery within a tactile touch interface.
