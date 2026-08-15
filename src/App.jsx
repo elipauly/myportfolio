@@ -7,12 +7,16 @@ import JumpToTop from './components/JumpToTop.jsx';
 import Home from './Home.jsx'
 import About from './About.jsx'
 import Research from './Research.jsx'
+
+//research
 import SportsBettingReddit from './researchpages/SportsBettingReddit.jsx';
 import CommercializationMMO from './researchpages/CommercializationMMO.jsx';
 
+//interaction
 import Amplication from './workspages/Amplication.jsx';
 import Hausblend from './workspages/Hausblend.jsx';
 import SummerJobs from './workspages/SummerJobs.jsx';
+import Beers from './workspages/Beers.jsx';
 
 import Subpage from './components/Subpage.jsx';
 import { LightboxProvider } from './components/LightboxProvider.jsx';
@@ -32,6 +36,7 @@ function App() {
                 <Route path="/amplication" element={<Amplication />} />
                 <Route path="/hausblend" element={<Hausblend />} />
                 <Route path="/summerjobs" element={<SummerJobs />} />
+                <Route path="/beers" element={<Beers />} />
               
               </Route>
 

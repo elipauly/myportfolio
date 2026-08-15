@@ -42,9 +42,11 @@ function Home() {
           </Link>
         </Col>
         <Col>
+          <Link to="/beers" className='page-link'>
           <img src="src/assets/images_homepage/hausblendLogo.png" alt="hausblend logo" className="home-image right-image"/>
           <h2>Beers Meant Life to Me</h2>
           <p>iPad Video Game Prototype</p>
+          </Link>
         </Col>
       </Row>
     </Container>
