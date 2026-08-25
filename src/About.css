@@ -6,11 +6,13 @@
 }
 
 .about-image {
-  width: 65vw;
+  width: 100%;
   aspect-ratio: 4 / 1;
   overflow: hidden;
   margin: 0 auto;
   object-fit: cover;
+  border-radius: 8px;
+  
 }
 
 .resume-link {

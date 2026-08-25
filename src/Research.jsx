@@ -16,6 +16,7 @@ function Research() {
         <Row>
             <Col>
                 <h2 className='title title-left'>hci research</h2>
+                <br />
             </Col>
         </Row>  
         <Row>

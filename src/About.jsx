@@ -59,7 +59,8 @@ function About() {
           <p className="title-left">
             +1 3194917151
           </p>
-          <p className="title-left">I recently graduated from the University of Iowa with a Master’s in Informatics, focused in Human-Computer Interaction and graphic design.  I am captivated by street signs, difficult questions, and statistics. I am a pleasant coworker, and available for work in NYC & Berlin. Und ja, ich rede Deutsch. My journal is this color.</p>
+          <p className="title-left">I recently graduated from the University of Iowa with a Master’s in Informatics, focused in Human-Computer Interaction and graphic design. 
+            I am captivated by street signs, difficult questions, and statistics. I am a pleasant coworker, and available for work in NYC & Berlin. Und ja, ich rede Deutsch. My journal is this color.</p>
         </Col>
         <Col className='resume-col'>
             <h2 onClick={onResumeClick} className="title-right resume-link">my resume.pdf</h2>

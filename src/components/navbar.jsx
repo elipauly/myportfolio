@@ -11,7 +11,8 @@ function NavBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="w-100 justify-content-evenly">
-            <Nav.Link href="/">works</Nav.Link>
+            <Nav.Link href="/">interaction</Nav.Link>
+            <Nav.Link href="/graphic">graphic</Nav.Link>
             <Nav.Link href="/research">research</Nav.Link>
             <Nav.Link href="/about">about</Nav.Link>
 

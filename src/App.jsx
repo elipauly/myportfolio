@@ -7,6 +7,7 @@ import JumpToTop from './components/JumpToTop.jsx';
 import Home from './Home.jsx'
 import About from './About.jsx'
 import Research from './Research.jsx'
+import Graphic from './Graphic.jsx'
 
 //research
 import SportsBettingReddit from './researchpages/SportsBettingReddit.jsx';
@@ -39,6 +40,8 @@ function App() {
                 <Route path="/beers" element={<Beers />} />
               
               </Route>
+
+              <Route path="/graphic" element={<Graphic />} />
 
               <Route path="/research" element={<Research />} />
               
