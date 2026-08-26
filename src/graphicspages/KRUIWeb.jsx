@@ -7,7 +7,17 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 //images
-import header from "../assets/graphics_imgs/epode_imgs/header.png"
+import header from "../assets/graphics_imgs/krui_web_imgs/header.png";
+import marig from "../assets/graphics_imgs/krui_web_imgs/marig.jpg";
+import marweb from "../assets/graphics_imgs/krui_web_imgs/marweb.png";
+import febig from "../assets/graphics_imgs/krui_web_imgs/febig.png";
+import febweb from "../assets/graphics_imgs/krui_web_imgs/febweb.png";
+import songs from "../assets/graphics_imgs/krui_web_imgs/songs25.png";
+import albums from "../assets/graphics_imgs/krui_web_imgs/albums25.png";
+import media from "../assets/graphics_imgs/krui_web_imgs/media_2025.png";
+import songfest from "../assets/graphics_imgs/krui_web_imgs/songfest.png";
+import wwwy from "../assets/graphics_imgs/krui_web_imgs/wwwy.png";
+import webscroll from "../assets/graphics_imgs/krui_web_imgs/webscroll.gif";
 
 function KRUIWeb() {
     return (
@@ -22,7 +32,7 @@ function KRUIWeb() {
     <Row>
         <Col>
             <h1 className="title title-left">
-                Amplication
+                KRUI Web Graphics
             </h1>
         </Col>
     </Row>
@@ -31,7 +41,7 @@ function KRUIWeb() {
         <Col>
             <GalleryImage
                 src={header}
-                className="full-row-img white-fill"
+                className="full-row-img red-fill"
                 alt="Amplication branding visual"
                 caption="Amplication"
             />
@@ -69,18 +79,190 @@ function KRUIWeb() {
 
             <a
                 className="github-link"
-                href="https://github.com/cspahn1695/ai-job-application-tracker/tree/main"
+                href="https://krui.fm"
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                project on github →
+                krui.fm website →
             </a>
+        <hr className="works-divider" />
 
         </Col>
 
     </Row>
 
+
+    <Row>
+        <Col>
+            <GalleryImage
+                src={songs}
+                className="full-row-img web-fill"
+                alt="Amplication branding visual"
+                caption="Amplication"
+            />
+        </Col>
+    </Row>
+
+
+{/* =========================================
+    2nd row
+========================================= */}
+
+<Container fluid className="project-image-grid-container px-0">
+    <br />
+    <div className="project-image-grid">
+
+        <div className="project-image-grid-column">
+
+            <div className="project-image-grid-item">
+
+                <GalleryImage
+                    src={albums}
+                    className="project-image-grid-image"
+                    alt="epode homepage"
+                    caption="epode web homepage"
+                />
+
+                <p className="project-image-grid-caption title-right">
+                    website homepage
+                </p>
+
+            </div>
+
+
+            <div className="project-image-grid-item">
+
+                <GalleryImage
+                    src={wwwy}
+                    className="project-image-grid-image"
+                    alt="epode fragrance packaging"
+                    caption="epode fragrance packaging"
+                />
+
+                <p className="project-image-grid-caption title-right">
+                    fragrance packaging
+                </p>
+
+            </div>
+            
+
+        </div>
+        
+
+
+        <div className="project-image-grid-column">
+            
+
+            <div className="project-image-grid-item">
+
+                <GalleryImage
+                    src={media}
+                    className="project-image-grid-image"
+                    alt="Fragrance line web interface"
+                    caption="Fragrance line web interface"
+                />
+
+                <p className="project-image-grid-caption title-left">
+                    fragrance line web interface
+                </p>
+
+            </div>
+
+
+            <div className="project-image-grid-item">
+
+                <GalleryImage
+                    src={songfest}
+                    className="project-image-grid-image"
+                    alt="E-commerce cart screen"
+                    caption="epode e-commerce cart screen"
+                />
+
+                <p className="project-image-grid-caption title-left">
+                    online cart interface
+                </p>
+            </div>
+            
+
+        </div>
+        
+
+    </div>
+
 </Container>
+
+
+
+
+    </Container>
+    
+
+        { // web v ig images
+        }
+        <Container className="container container-works">
+            <Row className="row-home">
+                
+        <Col>
+        <br />
+        <hr className="works-divider" />
+            <GalleryImage
+                src={webscroll}
+                className="full-row-img web-fill"
+                alt="Amplication branding visual"
+                caption="Amplication"
+            />
+        <hr className="works-divider" />
+        </Col>
+    </Row>
+
+            <Row className="aligned-image-row">
+
+                <Col md={8} className="aligned-image-col">
+                
+                    <GalleryImage
+                        src={marweb}
+                        className="aligned-image"
+                        alt="Marigold landscape"
+                        caption="Marigold landscape"
+                    />
+                </Col>
+
+                <Col md={4} className="aligned-image-col">
+                    <GalleryImage
+                        src={marig}
+                        className="aligned-image"
+                        alt="Marigold web design"
+                        caption="Marigold web design"
+                    />
+                    
+                </Col>
+            </Row>
+        </Container>
+
+        <Container className="container container-works">
+            <Row className="aligned-image-row">
+
+                <Col md={8} className="aligned-image-col">
+                    <GalleryImage
+                        src={febweb}
+                        className="aligned-image"
+                        alt="Marigold landscape"
+                        caption="Marigold landscape"
+                    />
+                </Col>
+
+                <Col md={4} className="aligned-image-col">
+                    <GalleryImage
+                        src={febig}
+                        className="aligned-image"
+                        alt="Marigold landscape"
+                        caption="Marigold landscape"
+                    />
+                </Col>
+
+            </Row>
+
+        </Container>
 
 
     </>

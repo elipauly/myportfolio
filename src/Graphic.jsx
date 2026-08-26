@@ -69,7 +69,7 @@ function Graphic() {
           <Link to="/KRUI-online" className='page-link'>
           <img src={krui} alt="KRUI website graphics" className="home-image home-image-fit right-image" style={{ backgroundColor: "#d94127"}}/>
           <h2>KRUI Web</h2>
-          <p>Header graphics for student articles</p>
+          <p>Editor-in-chief & graphic production for web</p>
           </Link>
         </Col>
       </Row>

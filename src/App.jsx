@@ -54,7 +54,7 @@ function App() {
                 <Route path="/epode" element={<Epode />} />
                 <Route path="/Kaffee" element={<Kaffee />} />
                 <Route path="/KRUI-socials" element={<KRUISocials />} />
-                <Route path="/KRUI-web" element={<KRUIWeb />} />
+                <Route path="/KRUI-online" element={<KRUIWeb />} />
                 <Route path="/Modest-Mouse" element={<ModestMouse />} />
                 <Route path="/Twin-Peaks-Zine" element={<TwinPeaks />} />
               
