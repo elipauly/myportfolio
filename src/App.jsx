@@ -19,6 +19,14 @@ import Hausblend from './workspages/Hausblend.jsx';
 import SummerJobs from './workspages/SummerJobs.jsx';
 import Beers from './workspages/Beers.jsx';
 
+//graphics
+import Epode from './graphicspages/Epode.jsx';
+import Kaffee from './graphicspages/Kaffee.jsx'
+import KRUISocials from './graphicspages/KRUISocials.jsx';
+import KRUIWeb from './graphicspages/KRUIWeb.jsx';
+import ModestMouse from './graphicspages/ModestMouse.jsx';
+import TwinPeaks from './graphicspages/TwinPeaks.jsx';
+
 import Subpage from './components/Subpage.jsx';
 import { LightboxProvider } from './components/LightboxProvider.jsx';
 
@@ -42,6 +50,15 @@ function App() {
               </Route>
 
               <Route path="/graphic" element={<Graphic />} />
+              <Route element={<Subpage />}>
+                <Route path="/epode" element={<Epode />} />
+                <Route path="/Kaffee" element={<Kaffee />} />
+                <Route path="/KRUI-socials" element={<KRUISocials />} />
+                <Route path="/KRUI-web" element={<KRUIWeb />} />
+                <Route path="/Modest-Mouse" element={<ModestMouse />} />
+                <Route path="/Twin-Peaks-Zine" element={<TwinPeaks />} />
+              
+              </Route>
 
               <Route path="/research" element={<Research />} />
               

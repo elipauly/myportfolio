@@ -281,7 +281,7 @@ function Beers() {
                 />
 
                 <p className="mobile-gallery-caption">
-                    a Polish resemblance to a licensed character
+                    Bears resemblance to a licensed character (but Polish)
                 </p>
 
             </div>

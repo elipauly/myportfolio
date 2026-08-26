@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
 //images
-import about_img from "./assets/about/eyes.png";
+import about_img from "./assets/about/dolphin.png";
 import li_icon from "./assets/about/li.png";
 import ig_icon from "./assets/about/ig.png"; 
 import mail_icon from "./assets/about/mail.png"; 
