@@ -8,6 +8,13 @@ import Col from 'react-bootstrap/Col';
 
 //images
 import header from "../assets/graphics_imgs/epode_imgs/header.png"
+import beef from "../assets/graphics_imgs/kaffee_imgs/BEE_FRONT.png";
+import beeb from "../assets/graphics_imgs/kaffee_imgs/BEE_BACK.png";
+import mothf from "../assets/graphics_imgs/kaffee_imgs/MOTH_FRONT.png";
+import mothb from "../assets/graphics_imgs/kaffee_imgs/MOTH_BACK.png";
+import wormf from "../assets/graphics_imgs/kaffee_imgs/WORM_FRONT.png";
+import wormb from "../assets/graphics_imgs/kaffee_imgs/WORM_BACK.png";
+import variety from "../assets/graphics_imgs/kaffee_imgs/VARIETY_MOCKUP.png";
 
 function Kaffee() {
     return (
@@ -22,7 +29,7 @@ function Kaffee() {
     <Row>
         <Col>
             <h1 className="title title-left">
-                Amplication
+                Käffee
             </h1>
         </Col>
     </Row>
@@ -30,7 +37,7 @@ function Kaffee() {
     <Row className="row-home">
         <Col>
             <GalleryImage
-                src={header}
+                src={variety}
                 className="full-row-img white-fill"
                 alt="Amplication branding visual"
                 caption="Amplication"
@@ -67,20 +74,64 @@ function Kaffee() {
                 applies to a job posting, and to generate practice interview questions from an existing job listing.
             </p>
 
-            <a
-                className="github-link"
-                href="https://github.com/cspahn1695/ai-job-application-tracker/tree/main"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                project on github →
-            </a>
-
         </Col>
 
     </Row>
 
 </Container>
+
+<Container className="container container-works">
+            <br /> <br />
+            <Row className="masonry-row">
+
+                <Col className="masonry-col">
+
+                    <GalleryImage
+                        src={beef}
+                        className="masonry-img"
+                        alt="epode Google format web ad"
+                        caption="epode Google format web ad"
+                    />
+                    <GalleryImage
+                        src={wormf}
+                        className="masonry-img"
+                        alt="epode candle within box packaging"
+                        caption="epode candle within box packaging"
+                    />
+                    <GalleryImage
+                        src={mothf}
+                        className="masonry-img"
+                        alt="epode candle within box packaging"
+                        caption="epode candle within box packaging"
+                    />
+
+                </Col>
+
+                <Col className="masonry-col">
+                    <GalleryImage
+                        src={beeb}
+                        className="masonry-img"
+                        alt="epode candle packaging"
+                        caption="epode candle packaging"
+                    />
+                    <GalleryImage
+                        src={wormb}
+                        className="masonry-img"
+                        alt="epode 2mL bottle design"
+                        caption="epode 2mL bottle design"
+                    />
+                    <GalleryImage
+                        src={mothb}
+                        className="masonry-img"
+                        alt="epode 2mL bottle design"
+                        caption="epode 2mL bottle design"
+                    />
+
+                </Col>
+
+            </Row>
+
+        </Container>
 
 
     </>
