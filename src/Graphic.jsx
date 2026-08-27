@@ -52,7 +52,7 @@ function Graphic() {
         <Col>
           <Link to="/twin-peaks-zine" className='page-link'>
           <img src={tweaks} alt="Twin Peaks zine spread" className="home-image right-image"/>
-          <h2>Twin Peaks Zine</h2>
+          <h2>Twin Peaks Editorial Zine</h2>
           <p>David Lynch inspired zine</p>
           </Link>
         </Col>

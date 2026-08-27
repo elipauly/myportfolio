@@ -39,8 +39,8 @@ function Kaffee() {
             <GalleryImage
                 src={variety}
                 className="full-row-img white-fill"
-                alt="Amplication branding visual"
-                caption="Amplication"
+                alt="Käffee variety packaging, 6-can pack"
+                caption="Käffee 6-pack variety packaging"
             />
         </Col>
     </Row>
@@ -61,17 +61,10 @@ function Kaffee() {
         <Col>
 
             <p className="title-left">
-
-
-                Amplication is a web app designed as a job application journal
-                where users can keep track of their employment applications.
-                In the current job market, it is not uncommon for jobseekers to apply to dozens of jobs,
-                creating a need for a tool that helps applicants organize and track their search process.
-            </p>
-
-            <p className="title-left">
-                We integrated AI-assisted features to calculate how well an applicant's resume
-                applies to a job posting, and to generate practice interview questions from an existing job listing.
+                Käffee is a packaging design system for an organic, environmentally conscious canned 
+                coffee brand. The visual identity combines playful typography, bright earthy colors, and hand-drawn illustrations to create a fun 
+                and inviting system, yet unique from other brands spaced out on the organic market shelves. I designed this as a packaged brand 
+                to make sustainability feel approachable, while maintaining a cohesive system across the product line.
             </p>
 
         </Col>
@@ -81,7 +74,7 @@ function Kaffee() {
 </Container>
 
 <Container className="container container-works">
-            <br /> <br />
+    <br />
             <Row className="masonry-row">
 
                 <Col className="masonry-col">
@@ -89,20 +82,20 @@ function Kaffee() {
                     <GalleryImage
                         src={beef}
                         className="masonry-img"
-                        alt="epode Google format web ad"
-                        caption="epode Google format web ad"
+                        alt="Wildflower Honey Coldbrew, Front of can"
+                        caption="Wildflower Honey Coldbrew, Front of can"
                     />
                     <GalleryImage
                         src={wormf}
                         className="masonry-img"
-                        alt="epode candle within box packaging"
-                        caption="epode candle within box packaging"
+                        alt="Apple Gingersnap Coldbrew, Front of can"
+                        caption="Apple Gingersnap Coldbrew, Front of can"
                     />
                     <GalleryImage
                         src={mothf}
                         className="masonry-img"
-                        alt="epode candle within box packaging"
-                        caption="epode candle within box packaging"
+                        alt="New Lunar Moon Coldbrew, Front of can"
+                        caption="New Lunar Moon Coldbrew, Front of can"
                     />
 
                 </Col>
@@ -111,20 +104,20 @@ function Kaffee() {
                     <GalleryImage
                         src={beeb}
                         className="masonry-img"
-                        alt="epode candle packaging"
-                        caption="epode candle packaging"
+                        alt="Wildflower Honey Coldbrew, Back of can"
+                        caption="Wildflower Honey Coldbrew, Back of can"
                     />
                     <GalleryImage
                         src={wormb}
                         className="masonry-img"
-                        alt="epode 2mL bottle design"
-                        caption="epode 2mL bottle design"
+                        alt="Apple Gingersnap Coldbrew, Back of can"
+                        caption="Apple Gingersnap Coldbrew, Back of can"
                     />
                     <GalleryImage
                         src={mothb}
                         className="masonry-img"
-                        alt="epode 2mL bottle design"
-                        caption="epode 2mL bottle design"
+                        alt="New Lunar Moon Coldbrew, Back of can"
+                        caption="New Lunar Moon Coldbrew, Back of can"
                     />
 
                 </Col>

@@ -50,8 +50,8 @@ function KRUISocials() {
             <GalleryImage
                 src={header}
                 className="full-row-img blue-fill"
-                alt="epode squiggle description"
-                caption="epode Squiggle"
+                alt="KRUI 89.7FM Logo"
+                caption="KRUI 89.7FM Logo"
             />
         </Col>
     </Row>
@@ -72,13 +72,17 @@ function KRUISocials() {
         <Col>
 
             <p className="title-left">
-                I had the opportunity to work for KRUI 89.7FM student radio as the web & social media director from 2025-2026.
-                In this role, I produced graphics and copywrighting for social media communication to promote DJ programming,
-                local events, and student journalism.
+                I worked one year for KRUI 89.7FM student radio as the Web & Social Media Director from 2025–2026. In this role, I designed graphics and wrote copy for social media communications
+                promoting DJ programming, local events, and student journalism. My work focused on 
+                engaging a college-aged audience with creative, cohesive and bold visuals that 
+                could communicate information quickly while maintaining KRUI’s boundary-pushing identity.
             </p>
 
             <p className="title-left">
-                Kill yr darlings,
+                I struggled in the beginning with connecting the KRUI brand with promotional visuals, given the significant creative liberties.
+                Through my work and experience, the boundary between the two became clearer, 
+                and I defined the moments where brand assets could relax to fit a promotional theme like 
+                local event calendars, and where they would restrict for station-specific materials like hiring announcements.
             </p>
 
         </Col>
@@ -98,8 +102,8 @@ function KRUISocials() {
                     <GalleryImage
                         src={p1}
                         className="masonry-img"
-                        alt="epode Google format web ad"
-                        caption="epode Google format web ad"
+                        alt="Programming Schedule, Mondays & Tuesdays"
+                        caption="Programming Schedule, Mondays & Tuesdays. Part of 3 post series highlighting the full week schedule"
                     />
 
                 </Col>
@@ -108,8 +112,8 @@ function KRUISocials() {
                     <GalleryImage
                         src={p2}
                         className="masonry-img"
-                        alt="epode candle packaging"
-                        caption="epode candle packaging"
+                        alt="Programming Schedule, Mondays"
+                        caption="Programming Schedule, Mondays"
                     />
 
                 </Col>
@@ -117,8 +121,8 @@ function KRUISocials() {
                     <GalleryImage
                         src={p3}
                         className="masonry-img"
-                        alt="epode candle packaging"
-                        caption="epode candle packaging"
+                        alt="Programming Schedule, Tuesdays"
+                        caption="Programming Schedule, Tuesdays"
                     />
 
                 </Col>
@@ -140,14 +144,14 @@ function KRUISocials() {
                     <GalleryImage
                         src={hiring}
                         className="masonry-img"
-                        alt="epode Google format web ad"
-                        caption="epode Google format web ad"
+                        alt="KRUI 26/27 hiring call promo"
+                        caption="Promoting KRUI's 26/27 hiring"
                     />
                     <GalleryImage
                         src={danenglish}
                         className="masonry-img"
-                        alt="epode candle within box packaging"
-                        caption="epode candle within box packaging"
+                        alt="Dan English live in-studio show promo"
+                        caption="Dan English live in-studio show promotion"
                     />
 
                 </Col>
@@ -156,14 +160,14 @@ function KRUISocials() {
                     <GalleryImage
                         src={nightmoves}
                         className="masonry-img"
-                        alt="epode candle packaging"
-                        caption="epode candle packaging"
+                        alt="Night Moves live in-studio show promo"
+                        caption="Night Moves live in-studio show promotion"
                     />
                     <GalleryImage
                         src={birdlabs}
                         className="masonry-img"
-                        alt="epode 2mL bottle design"
-                        caption="epode 2mL bottle design"
+                        alt="UIowa CLAS Welcome Party Event Promo"
+                        caption="UIowa CLAS Welcome Party event promotion"
                     />
 
                 </Col>
@@ -184,8 +188,8 @@ function KRUISocials() {
                     <GalleryImage
                         src={picks1}
                         className="masonry-img"
-                        alt="epode Google format web ad"
-                        caption="epode Google format web ad"
+                        alt="KRUI Picks (pt. 1), promoting our end-of-year articles"
+                        caption="KRUI Picks (pt. 1), promoting our end-of-year articles"
                     />
 
                 </Col>
@@ -194,8 +198,8 @@ function KRUISocials() {
                     <GalleryImage
                         src={picks3}
                         className="masonry-img"
-                        alt="epode candle packaging"
-                        caption="epode candle packaging"
+                        alt="KRUI Picks (pt. 3), promoting our end-of-year articles"
+                        caption="KRUI Picks (pt. 3), promoting our end-of-year articles"
                     />
 
                 </Col>
@@ -203,8 +207,8 @@ function KRUISocials() {
                     <GalleryImage
                         src={picks4}
                         className="masonry-img"
-                        alt="epode candle packaging"
-                        caption="epode candle packaging"
+                        alt="KRUI Picks (pt. 4), promoting our end-of-year articles"
+                        caption="KRUI Picks (pt. 4), promoting our end-of-year articles"
                     />
 
                 </Col>
@@ -213,8 +217,33 @@ function KRUISocials() {
 
         </Container>
 
+        <Container className="container container-works">
+    <Row>
+        <hr className="works-divider" />
+
+        <Col md="auto" style={{ marginRight: "2rem" }}>
+            <h2 className="title title-left">
+                show cal
+            </h2>
+        </Col>
+
+        <Col>
+
+            <p className="title-left">
+                Starting in January 2026, KRUI began creating monthly Iowa City event calendars to promote local music
+                and events. I designed a clear, impartial format for presenting 20-30 events across different 
+                dates, venues, and artists. The February calendar increased post engagement from an average 
+                of 5% to 16.8%, with March and April maintaining steady engagement at 6.5% and 6%. This 
+                calendar series became one of KRUIs most significant successes of the year, achieving our 
+                goal of connecting our audience with local musicians and events.
+            </p>
+        </Col>
+
+    </Row>
+
+</Container>
+
                 <Container className="container container-works">
-            <br /> <br />
             <Row className="masonry-row">
 
                 <Col className="masonry-col">
@@ -222,20 +251,20 @@ function KRUISocials() {
                     <GalleryImage
                         src={feb1}
                         className="masonry-img"
-                        alt="epode Google format web ad"
-                        caption="epode Google format web ad"
+                        alt="February show calendar promo cover"
+                        caption="February show calendar promo cover"
                     />
                     <GalleryImage
                         src={mar1}
                         className="masonry-img"
-                        alt="epode candle within box packaging"
-                        caption="epode candle within box packaging"
+                        alt="March show calendar promo cover"
+                        caption="March show calendar promo cover"
                     />
                     <GalleryImage
                         src={apr1}
                         className="masonry-img"
-                        alt="epode candle within box packaging"
-                        caption="epode candle within box packaging"
+                        alt="April show calendar promo cover"
+                        caption="April show calendar promo cover"
                     />
 
                 </Col>
@@ -244,20 +273,20 @@ function KRUISocials() {
                     <GalleryImage
                         src={feb2}
                         className="masonry-img"
-                        alt="epode candle packaging"
-                        caption="epode candle packaging"
+                        alt="February show calendar information system"
+                        caption="February show calendar information system"
                     />
                     <GalleryImage
                         src={mar2}
                         className="masonry-img"
-                        alt="epode 2mL bottle design"
-                        caption="epode 2mL bottle design"
+                        alt="March show calendar information system"
+                        caption="March show calendar information system"
                     />
                     <GalleryImage
                         src={apr2}
                         className="masonry-img"
-                        alt="epode candle within box packaging"
-                        caption="epode candle within box packaging"
+                        alt="April show calendar information system"
+                        caption="April show calendar information system"
                     />
 
                 </Col>

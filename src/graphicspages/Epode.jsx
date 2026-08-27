@@ -67,7 +67,7 @@ function Epode() {
         <Col>
 
             <p className="title-left">
-                epode is the fragrance brand I designed. It is the source of the squiggle behind this text.
+                epode is the fragrance brand identity I designed. It is the source of the squiggle behind this text.
             </p>
 
             <p className="title-left">
@@ -76,11 +76,11 @@ function Epode() {
 
             <a
                 className="link"
-                href="https://github.com/cspahn1695/ai-job-application-tracker/tree/main"
+                href="https://drive.google.com/file/d/1l6dJofzNelLSknqQmo93pU_lWxPls-di/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                full branding guide →
+                full identity guide →
             </a>
 
         </Col>
@@ -332,11 +332,11 @@ function Epode() {
 
             <a
                 className="link"
-                href="https://github.com/cspahn1695/ai-job-application-tracker/tree/main"
+                href="https://drive.google.com/file/d/1l6dJofzNelLSknqQmo93pU_lWxPls-di/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                full branding guide →
+                full identity guide →
             </a>
 
         </Col>

@@ -34,7 +34,7 @@ function TwinPeaks() {
     <Row>
         <Col>
             <h1 className="title title-left">
-                Twin Peaks Zine
+                Twin Peaks Editorial Zine
             </h1>
         </Col>
     </Row>
@@ -43,9 +43,9 @@ function TwinPeaks() {
         <Col>
             <GalleryImage
                 src={header}
-                className="full-row-img epode-fill"
-                alt="epode squiggle description"
-                caption="epode Squiggle"
+                className="full-row-img white-fill"
+                alt="Zine snippet, featuring the Twin Peaks bird"
+                caption="Zine snippet, featuring the Twin Peaks bird"
             />
         </Col>
     </Row>
@@ -66,22 +66,24 @@ function TwinPeaks() {
         <Col>
 
             <p className="title-left">
-
-
-                Amplication is a web app designed as a job application journal
-                where users can keep track of their employment applications.
-                In the current job market, it is not uncommon for jobseekers to apply to dozens of jobs,
-                creating a need for a tool that helps applicants organize and track their search process.
+                I created an editorial zine exploring the atmosphere, imagery, and narrative of David Lynch’s 
+                Twin Peaks and Fire Walk With Me. I manipulated still frames into layouts to convey the eerie 
+                themes and surreal visuals, which become increasingly disruptive as the pages unfold, reflecting 
+                the spiraling story of Twin Peaks.
             </p>
 
             <p className="title-left">
-                We integrated AI-assisted features to calculate how well an applicant's resume
-                applies to a job posting, and to generate practice interview questions from an existing job listing.
+                Text is from meaningful character quotes, and from the Log Lady's 
+                monologued vignettes introducing each episode. Typography was a tool which balanced
+                between the pages of a dusty book and horror hand lettering. By manipulating and 
+                breaking typography, imagery, and layouts, the zine transforms and descends into 
+                something more haunting with each page, while maintaining the fundamental cohesion 
+                and atmosphere.
             </p>
 
             <a
                 className="github-link"
-                href="https://github.com/cspahn1695/ai-job-application-tracker/tree/main"
+                href="https://drive.google.com/file/d/1rzv1gL064aoofgBizE-1r8PM93TY98xh/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
             >
@@ -99,8 +101,8 @@ function TwinPeaks() {
             <GalleryImage
                 src={spread7}
                 className="aligned-image-tp"
-                alt="Marigold web design"
-                caption="Marigold web design"
+                alt="Zine pages 20 & 21"
+                caption="Zine pages 20 & 21"
             />
         </Row>
 </Container>
@@ -112,8 +114,8 @@ function TwinPeaks() {
                     <GalleryImage
                         src={single1}
                         className="aligned-image-tp"
-                        alt="Marigold web design"
-                        caption="Marigold web design"
+                        alt="Zine front cover"
+                        caption="Zine front cover"
                     />
                     
                 </Col>
@@ -123,8 +125,8 @@ function TwinPeaks() {
                     <GalleryImage
                         src={spread2}
                         className="aligned-image-tp"
-                        alt="Marigold landscape"
-                        caption="Marigold landscape"
+                        alt="Zine pages 1 & 3"
+                        caption="Zine pages 1 & 3"
                     />
                 </Col>
             </Row>
@@ -137,8 +139,8 @@ function TwinPeaks() {
                     <GalleryImage
                         src={single4}
                         className="aligned-image-tp"
-                        alt="Marigold landscape"
-                        caption="Marigold landscape"
+                        alt="Zine back cover"
+                        caption="Zine back cover"
                     />
                 </Col>
 
@@ -146,8 +148,8 @@ function TwinPeaks() {
                     <GalleryImage
                         src={spread1}
                         className="aligned-image-tp"
-                        alt="Marigold landscape"
-                        caption="Marigold landscape"
+                        alt="Zine pages 4 & 5"
+                        caption="Zine pages 4 & 5"
                     />
                 </Col>
 
@@ -164,8 +166,8 @@ function TwinPeaks() {
                     <GalleryImage
                         src={spread5}
                         className="aligned-image-tp"
-                        alt="Marigold landscape"
-                        caption="Marigold landscape"
+                        alt="Zine pages 12 & 13"
+                        caption="Zine pages 12 & 13"
                     />
                 </Col>
 
@@ -173,8 +175,8 @@ function TwinPeaks() {
                     <GalleryImage
                         src={single2}
                         className="aligned-image-tp"
-                        alt="Marigold web design"
-                        caption="Marigold web design"
+                        alt="Zine page 15"
+                        caption="Zine page 15"
                     />
                     
                 </Col>
@@ -188,8 +190,8 @@ function TwinPeaks() {
                     <GalleryImage
                         src={spread4}
                         className="aligned-image-tp"
-                        alt="Marigold landscape"
-                        caption="Marigold landscape"
+                        alt="Zine pages 10 & 11"
+                        caption="Zine pages 10 & 11"
                     />
                 </Col>
 
@@ -197,8 +199,8 @@ function TwinPeaks() {
                     <GalleryImage
                         src={single3}
                         className="aligned-image-tp"
-                        alt="Marigold landscape"
-                        caption="Marigold landscape"
+                        alt="Zine page 16"
+                        caption="Zine page 16"
                     />
                 </Col>
 
@@ -211,8 +213,8 @@ function TwinPeaks() {
             <GalleryImage
                 src={spread6}
                 className="aligned-image-tp"
-                alt="Marigold web design"
-                caption="Marigold web design"
+                alt="Zine pages 18 & 19"
+                caption="Zine pages 18 & 19"
             />
         </Row>
 </Container>
@@ -222,12 +224,12 @@ function TwinPeaks() {
 
         <Col>
             <h2 className="title title-right">
-                Fire, walk with me.
+                Meanwhile,
             </h2>
 
             <a
                 className="link"
-                href="https://github.com/cspahn1695/ai-job-application-tracker/tree/main"
+                href="https://drive.google.com/file/d/1rzv1gL064aoofgBizE-1r8PM93TY98xh/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
             >

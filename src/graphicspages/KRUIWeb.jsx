@@ -64,19 +64,13 @@ function KRUIWeb() {
         <Col>
 
             <p className="title-left">
-
-
-                Amplication is a web app designed as a job application journal
-                where users can keep track of their employment applications.
-                In the current job market, it is not uncommon for jobseekers to apply to dozens of jobs,
-                creating a need for a tool that helps applicants organize and track their search process.
+                As Web & Social Media Director of KRUI student radio, I served as editor-in-chief for
+                digital content and designed web graphics to accompany student articles. I translated 
+                each article’s subject and tone into visual compositions to capture readers’ attention, while 
+                complementing the written content. For recurring KRUI Staff Picks features, I developed a 
+                DIY-inspired collage system to compile monthly or yearly recommendations from our staff 
+                writers, highlighting each contributor’s individual pick within a cohesive composition.
             </p>
-
-            <p className="title-left">
-                We integrated AI-assisted features to calculate how well an applicant's resume
-                applies to a job posting, and to generate practice interview questions from an existing job listing.
-            </p>
-
             <a
                 className="github-link"
                 href="https://krui.fm"
@@ -85,7 +79,6 @@ function KRUIWeb() {
             >
                 krui.fm website →
             </a>
-        <hr className="works-divider" />
 
         </Col>
 
@@ -100,6 +93,9 @@ function KRUIWeb() {
                 alt="Amplication branding visual"
                 caption="Amplication"
             />
+            <p className="title-left">
+                KRUI Picks, Songs of 2025
+            </p>
         </Col>
     </Row>
 
@@ -124,7 +120,7 @@ function KRUIWeb() {
                 />
 
                 <p className="project-image-grid-caption title-right">
-                    website homepage
+                    KRUI Picks, Albums of 2025
                 </p>
 
             </div>
@@ -140,7 +136,7 @@ function KRUIWeb() {
                 />
 
                 <p className="project-image-grid-caption title-right">
-                    fragrance packaging
+                    When We Were Young Festival Article
                 </p>
 
             </div>
@@ -163,7 +159,7 @@ function KRUIWeb() {
                 />
 
                 <p className="project-image-grid-caption title-left">
-                    fragrance line web interface
+                    KRUI Picks, Media of 2025
                 </p>
 
             </div>
@@ -179,7 +175,7 @@ function KRUIWeb() {
                 />
 
                 <p className="project-image-grid-caption title-left">
-                    online cart interface
+                    Iowa City Songwriter's Festival Review
                 </p>
             </div>
             
@@ -208,9 +204,12 @@ function KRUIWeb() {
             <GalleryImage
                 src={webscroll}
                 className="full-row-img web-fill"
-                alt="Amplication branding visual"
-                caption="Amplication"
+                alt="KRUI website, live scroll gif"
+                caption="KRUI website, live scroll"
             />
+        <p className="title-left">
+                KRUI live website
+            </p>
         <hr className="works-divider" />
         </Col>
     </Row>
@@ -222,8 +221,8 @@ function KRUIWeb() {
                     <GalleryImage
                         src={marweb}
                         className="aligned-image"
-                        alt="Marigold landscape"
-                        caption="Marigold landscape"
+                        alt="Staff Picks for March 2026, Web layout"
+                        caption="Staff Picks for March 2026, Web layout"
                     />
                 </Col>
 
@@ -231,8 +230,8 @@ function KRUIWeb() {
                     <GalleryImage
                         src={marig}
                         className="aligned-image"
-                        alt="Marigold web design"
-                        caption="Marigold web design"
+                        alt="Staff Picks for March 2026, Instagram post layout"
+                        caption="Staff Picks for March 2026, Instagram post layout"
                     />
                     
                 </Col>
@@ -246,8 +245,8 @@ function KRUIWeb() {
                     <GalleryImage
                         src={febweb}
                         className="aligned-image"
-                        alt="Marigold landscape"
-                        caption="Marigold landscape"
+                        alt="Staff Picks for February 2026, Web layout"
+                        caption="Staff Picks for February 2026, Web layout"
                     />
                 </Col>
 
@@ -255,8 +254,8 @@ function KRUIWeb() {
                     <GalleryImage
                         src={febig}
                         className="aligned-image"
-                        alt="Marigold landscape"
-                        caption="Marigold landscape"
+                        alt="Staff Picks for February 2026, Instagram post layout"
+                        caption="Staff Picks for February 2026, Instagram post layout"
                     />
                 </Col>
 
