@@ -238,3 +238,20 @@
 
     border-radius: 8px;
 }
+
+/* twin peaks styling */
+.aligned-image-row-tp {
+    display: flex;
+    align-items: stretch;
+}
+
+.aligned-image-col-tp {
+    display: flex;
+}
+
+.aligned-image-tp {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
