@@ -13,7 +13,7 @@ import mail_icon from "./assets/about/mail.png";
 
 function About() {
   const onResumeClick = () => {
-    const linkResume = "https://paulyweb.s3.us-east-2.amazonaws.com/Elizabeth+Pauly+Designer.pdf";
+    const linkResume = "https://p4uly.net/resume";
     window.open(linkResume, "_blank", "noopener,noreferrer");
   };
 
