@@ -78,6 +78,8 @@ function SummerJobs() {
                         <a
                             className="github-link"
                             href="https://final.d3p1kpnoho0cyj.amplifyapp.com/"
+                            target="_blank" 
+                            rel="noopener noreferrer"
                         >
                             full live app on amplify→
                         </a>
@@ -347,6 +349,8 @@ function SummerJobs() {
                         <a
                             className="github-link"
                             href="https://final.d3p1kpnoho0cyj.amplifyapp.com/"
+                            target="_blank" 
+                            rel="noopener noreferrer"
                         >
                             full live app on amplify→
                         </a>

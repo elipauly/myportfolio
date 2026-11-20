@@ -67,11 +67,13 @@ function Hausblend() {
                         blend into an experience that is memorable, exciting, and caffeinated.
                     </p>
                     <a
-                            className="github-link"
-                            href="https://vimeo.com/1218469694?share=copy"
-                        >
-                            full app walkthrough video →
-                        </a>
+                        className="github-link"
+                        href="https://vimeo.com/1218469694?share=copy"
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                    >
+                        full app walkthrough video →
+                    </a>
                 </Col>
             </Row>
         <hr className="works-divider" />
@@ -406,7 +408,9 @@ function Hausblend() {
                             className="github-link"
                             style={{ textAlign: 'left', fontSize: '24px', marginTop: '-.4em', marginBottom: '1em'}}
                             href="https://vimeo.com/1218469694?share=copy"
-                        >
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                    >
                             full app walkthrough video →
                         </a>
                 </Col>

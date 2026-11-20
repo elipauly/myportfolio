@@ -13,18 +13,13 @@ import mail_icon from "./assets/about/mail.png";
 
 function About() {
   const onResumeClick = () => {
-    const pdfUrl = "src/assets/Resume_Pauly.pdf";
-    const link = document.createElement("a");
-    link.href = pdfUrl;
-    link.download = "ElizabethPaulyResume.pdf";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    const linkResume = "https://paulyweb.s3.us-east-2.amazonaws.com/Elizabeth+Pauly+Designer.pdf";
+    window.open(linkResume, "_blank", "noopener,noreferrer");
   };
 
   const onLinkedInClick = () => {
     const linkedInUrl = "https://www.linkedin.com/in/elizabeth-pauly/";
-    window.open(linkedInUrl, "_blank");
+    window.open(linkedInUrl, "_blank", "noopener,noreferrer");
   };
 
   const onEmailClick = () => {
@@ -34,7 +29,7 @@ function About() {
 
   const onInstagramClick = () => {
     const instagramUrl = "https://www.instagram.com/pauly.png/";
-    window.open(instagramUrl, "_blank");
+    window.open(instagramUrl, "_blank", "noopener,noreferrer");
   };
 
   return (
@@ -66,7 +61,7 @@ function About() {
             <h2 onClick={onResumeClick} className="title-right resume-link">my resume.pdf</h2>
         </Col>
       </Row>
-      <Row>
+      <Row gx-2>
         <img src={about_img} alt="project visual" className="about-image"/>
       </Row>
     </Container>

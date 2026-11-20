@@ -98,6 +98,8 @@ function Beers() {
             <a
                 className="github-link"
                 href="https://vimeo.com/1218469667?fl=ip&fe=ec"
+                target="_blank" 
+                rel="noopener noreferrer"
             >
                 full game walkthrough video →
             </a>
@@ -533,6 +535,8 @@ function Beers() {
             </p><a
                 className="github-link"
                 href="https://vimeo.com/1218469667?share=copy"
+                target="_blank" 
+                rel="noopener noreferrer"
             >
                 full game walkthrough video →
             </a>
@@ -541,9 +545,6 @@ function Beers() {
 
             <p className="title-right">
                 Thank you, Abby.
-            </p>
-             <p className="title-right">
-                .. and Garfield
             </p>
 
         </Col>
